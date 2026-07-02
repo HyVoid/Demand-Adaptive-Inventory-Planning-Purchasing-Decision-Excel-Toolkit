@@ -1,0 +1,6 @@
+{
+  "name": "DTC Inventory Planning Control Tower",
+  "description": "An institutional, high-fidelity SaaS web console for DTC brands to optimize safety stock, reorder points, demand forecasting, and working capital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

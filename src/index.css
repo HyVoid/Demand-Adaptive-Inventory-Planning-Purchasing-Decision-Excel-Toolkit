@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Core Brand Palette ── */
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #051C2C; /* Match brand color */
+
+  /* ── Semantic Colors (Actions & Anomaly only) ── */
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+
+  /* ── Surface Styles ── */
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E5E5E0;
+
+  /* ── Light Navigation Surface ── */
+  --nav-bg: #FFFFFF;
+  --nav-border: #E5E5E0;
+  --nav-text: #051C2C;
+  --nav-text-inactive: #888888;
+
+  /* ── Light Table Header ── */
+  --table-header-bg: #FFFFFF;
+  --table-header-sep: #E5E5E0;
+
+  /* ── Insight & Anomaly Backgrounds ── */
+  --insight-bg: rgba(34, 81, 255, 0.04);
+  --anomaly-bg: rgba(211, 47, 47, 0.04);
+
+  /* ── Typography System ── */
+  --font-heading: 'EB Garamond', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* ── Text Scales ── */
+  --text-page-title: 28px;
+  --text-section: 18px;
+  --text-kpi-value: 32px;
+  --text-table-head: 10px;
+  --text-body: 13px;
+  --text-label: 11px;
+
+  /* ── Negative Tracking on Serif Display ── */
+  --tracking-display: -0.03em;
+  --tracking-heading: -0.015em;
+  --tracking-label: 0.06em;
+
+  /* ── Radius System ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-pill: 9999px;
+
+  /* ── Layered Elevation Shadows ── */
+  --shadow-sm:
+    0 1px 2px rgba(5, 28, 44, 0.03),
+    0 2px 6px rgba(5, 28, 44, 0.04);
+  --shadow-md:
+    0 4px 12px rgba(5, 28, 44, 0.05);
+  --shadow-lg:
+    0 6px 20px rgba(5, 28, 44, 0.08);
+  --shadow-nav:
+    0 1px 2px rgba(5, 28, 44, 0.03);
+
+  /* ── Animation Speed & Easings ── */
+  --ease-standard: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1.0);
+  --ease-decel: cubic-bezier(0.0, 0.0, 0.2, 1.0);
+  --ease-accel: cubic-bezier(0.4, 0.0, 1.0, 1.0);
+  --dur-fast: 150ms;
+  --dur-normal: 250ms;
+}
+
+@theme {
+  --font-serif: var(--font-heading);
+  --font-sans: var(--font-body);
+}
+
+/* ── Base Antialiasing & Background Override ── */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-body-text);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ── Custom Classes matching Design HTML ── */
+.serif-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+}
+
+.nav-link {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-weight: 500;
+  color: var(--nav-text-inactive);
+  position: relative;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.nav-link.active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-accent);
+}
+
+.table-header {
+  font-size: var(--text-table-head);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: white;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.22s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.insight-block {
+  background: var(--insight-bg);
+  border-left: 3px solid var(--color-accent);
+  padding: 16px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.data-bar-track {
+  height: 6px;
+  background: rgba(5, 28, 44, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.data-bar-fill {
+  height: 100%;
+  background: var(--color-accent);
+}
+
+.editable-cell {
+  background: var(--color-input-bg);
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  width: 100%;
+  text-align: right;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  transition: box-shadow 0.15s ease;
+}
+
+.editable-cell:focus {
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+.badge {
+  padding: 2px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.22s ease-out forwards;
+}
+
+/* ── Smooth page fade-up transitions ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Interactive Input Field Polishes ── */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
