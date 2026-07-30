@@ -16,7 +16,8 @@
 > [*HTML Live Demo*](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
 >
 > 📥 **Download Excel Version**  
-> [*Download Link*](https://alexhasgreatestuff.gumroad.com/l/rklhag)
+> [*excel template purchase*](https://alexhasgreatestuff.gumroad.com/l/rklhag)
+> [*google doc view*](https://docs.google.com/spreadsheets/d/1txqQIBgA2fk-kbulvu06fERwotfYtSPIn35-ece84W4/edit?usp=sharing)
 
 ---
 
