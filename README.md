@@ -22,13 +22,6 @@
 
 ---
 
-# Screenshots
-
-<img width="1536" height="1024" alt="ChatGPT Image Jul 12, 2026, 08_02_21 PM" src="https://github.com/user-attachments/assets/602541c2-4073-4753-87db-05905e98cc7f" />
-
-*The Excel workbook containing data import sheets, forecasting engine, purchasing planner, and executive dashboard for recurring inventory planning.*
-
----
 # What It Helps You Track
 
 Instead of manually comparing inventory reports, supplier lead times, and historical sales across multiple spreadsheets, the workbook keeps the operational picture together.
