@@ -647,6 +647,40 @@ Fields include:
 
 ---
 
+## The Business Logic: Methodology & Commercial Impact
+
+Many inventory templates fail because they treat supply chain management as a purely mathematical counting exercise. In reality, inventory planning is a **capital allocation decision**. 
+
+This toolkit shifts the operational focus from *“How much stock is in the warehouse?”* to *“How do we maximize inventory turnover while protecting our marketing ROI and working capital?”* 
+
+Here is the underlying methodology and how it solves specific commercial problems:
+
+### 1. The Commercial Problem: The DTC Bullwhip Effect & Capital Misallocation
+Modern ecommerce brands operate in a high-volatility environment where paid social advertising, influencer marketing, and seasonality create sudden demand spikes. 
+*   **The flaw of static systems:** If a business uses a fixed Reorder Point (e.g., "always order when stock hits 500 units"), they will inevitably stock out during a high-ROAS marketing campaign, wasting ad spend. Conversely, over-ordering ties up critical cash flow in illiquid physical goods.
+*   **The solution:** This toolkit replaces static thresholds with a **Demand-Adaptive Reorder Point (ROP)** model. 
+
+### 2. The Core Methodology (How It Works)
+
+The calculation engine utilizes standard Operations Research principles, modified for fast-moving consumer goods:
+
+*   **Statistical Safety Stock (Standard Deviation & Z-Scores):**
+    Instead of guessing a buffer, the toolkit measures the historical standard deviation (σ) of your daily sales. By setting a Target Service Level (e.g., 95%), the model applies the corresponding Z-score to mathematically calculate the exact number of buffer units needed to absorb unexpected demand spikes during the supplier's lead time.
+*   **Rolling Demand & Momentum Modifiers:**
+    The engine does not rely solely on a 90-day historical average. It incorporates a **Trend Factor** (comparing 30-day velocity to 90-day baseline) and **Promotion Multipliers**. This methodology ensures that if your current ad spend is accelerating sales, the forecasted consumption adapts *before* the stockout occurs.
+*   **Lead-Time Demand Projection:**
+    The tool maps your forecasted daily demand directly against each specific supplier's lead time. It mathematically proves how many units will be burned through while your purchase order is sitting on a cargo ship.
+*   **Min-Max / MOQ Logic constraints:** 
+    Once the Reorder Point is breached, the algorithm calculates a suggested purchase quantity that satisfies the vendor's Minimum Order Quantity (MOQ) while rounding to operationally sensible lot sizes.
+
+### 3. The Commercial Output (Business Value)
+By connecting demand forecasting with financial metrics, the tool outputs actionable business intelligence:
+*   **For Operations:** Eliminates the guesswork of *when* and *how much* to order across multiple supply chains (domestic vs. international).
+*   **For Marketing:** Ensures product availability aligns with campaign schedules, protecting customer acquisition costs (CAC).
+*   **For Finance:** Provides immediate visibility into the **Purchase Commitment ($)**. Finance teams can evaluate the working capital impact of a proposed purchase order *before* the capital is deployed, ensuring the business remains liquid.
+
+---  
+
 # Other Tools in This Series
 
 This workbook is part of a growing collection of lightweight operational decision-support tools built for teams that need better decisions without implementing enterprise software.
