@@ -20,7 +20,7 @@ Try the cloud-based HTML version instantly with no installation, or download the
 > [Open the Free Interactive Inventory Planning Web App (HTML Live Demo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
 >
 > 📥 **Get the Spreadsheet**
-> [Download the Fully Unlocked Excel Inventory Management Template ↗](https://alexhasgreatestuff.gumroad.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+> [Download the Fully Unlocked Excel Inventory Management Template ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
 
 ---
 
