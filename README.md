@@ -1,3 +1,5 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+
 # Demand-Adaptive Inventory Planning & Purchasing Decision Excel Template
 
 <div align="left">
@@ -105,7 +107,7 @@ Designed for professionals who manage physical products and rely on data-driven 
 
 ---
 
-# About
+## About
 
 I build lightweight operational tools for situations where there are simply too many moving parts to keep in your head.
 
@@ -117,7 +119,7 @@ Inventory Planning Control Tower is one example of that approach. It combines de
 
 ---
 
-# Technical Details
+## Technical Details
 
 <details>
 <summary><strong>For technical reviewers, Excel practitioners, and collaborators</strong></summary>
@@ -681,7 +683,7 @@ By connecting demand forecasting with financial metrics, the tool outputs action
 
 ---  
 
-# Other Tools in This Series
+## Other Tools in This Series
 
 This workbook is part of a growing collection of lightweight operational decision-support tools built for teams that need better decisions without implementing enterprise software.
 
@@ -703,7 +705,7 @@ All tools follow the same principles:
 
 ---
 
-# License
+## License
 
 Licensed under the **Apache License 2.0**.
 
