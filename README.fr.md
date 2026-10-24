@@ -1,121 +1,155 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Modèle Excel de planification des stocks et de décision d'achat adaptatifs à la demande
+# Modèle Excel de planification des stocks et calculateur de point de commande (ROP) pour l'e-commerce, Shopify et Amazon FBA
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/ab946235-54c1-4cb6-8957-f3fc601b803a" />
 
-<div align="left">
-  <strong>Un modèle Excel automatisé de planification des stocks et d'aide à la décision d'achat, conçu pour les marques DTC, les vendeurs e-commerce et les gestionnaires de chaîne d'approvisionnement. Gratuit à tester dans votre navigateur ou à télécharger comme tableur personnalisable pour éviter les ruptures de stock, gérer les délais des fournisseurs et optimiser le fonds de roulement.</strong>
-</div>
-
-<br>
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Inventory%20Planning%20%26%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Inventory%20Replenishment%20%26%20ROP%20Model-orange)
+
+**Un modèle Excel automatisé de planification des stocks, un calculateur de point de commande (ROP) et un tableur de stock de sécurité, conçu pour les marques DTC du e-commerce, les marchands Shopify, les vendeurs Amazon FBA et les gestionnaires de chaîne d'approvisionnement. Combinez des prévisions glissantes de vitesse des ventes sur 30/90 jours, des tampons de délai fournisseur, des contraintes de quantité minimale de commande (MOQ) et l'exposition de trésorerie Open-to-Buy (OTB) dans un seul modèle d'aide à la décision—disponible gratuitement dans votre navigateur ou sous forme de classeur Excel déverrouillé.**
+
+**Aucune inscription. Aucune installation. Gratuit à tester dans votre navigateur.**
+
+Testez instantanément l'application web interactive dans le cloud sans aucune configuration, ou téléchargez le modèle de tableur Excel entièrement déverrouillé pour vos flux de réapprovisionnement hebdomadaires hors ligne—soutenu par une garantie de remboursement de 30 jours sans questions.
+
+> 🌐 **Essayer la calculatrice web :** [Ouvrir l'application web interactive gratuite de réapprovisionnement des stocks et de point de commande (démo en direct) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)  
+> 📥 **Obtenir le modèle Excel complet :** [Télécharger le modèle Excel entièrement déverrouillé de planification des stocks, de stock de sécurité et de décision de bons de commande ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
+> ⚙️ **Mathématiques de réapprovisionnement :** [Aller à la logique métier et à la méthodologie des stocks](#the-business-logic--methodology)
 
 ---
 
-**Automatisez votre cycle de réapprovisionnement en combinant prévision des ventes historiques, évaluation du risque lié aux délais des fournisseurs, calcul du point de commande et exposition de trésorerie dans un outil léger d'aide à la décision.**
+## Ce qu'il aide à suivre : mapping des points de douleur des stocks e-commerce aux solutions
 
-Essayez la version HTML cloud instantanément, sans installation, ou téléchargez le tableur entièrement déverrouillé pour vos flux opérationnels hors ligne.
+Les tableurs de stock statiques échouent face aux marques modernes de vente directe (DTC), Amazon FBA et de gros omnicanal, car la vitesse de la demande et les délais de fret outre-mer sont très volatils. Le passage à l'échelle du social payant sur Meta/TikTok, les ventes flash BFCM ou la congestion portuaire peuvent déclencher de graves ruptures de stock ou piéger des centaines de milliers de dollars en stock mort.
 
-> 🌐 **Essayer l'application web**
-> [Ouvrir l'application web gratuite et interactive de planification des stocks (démo HTML en direct) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
->
-> 📥 **Obtenir le tableur**
-> [Télécharger le modèle Excel entièrement déverrouillé de gestion des stocks ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+Au lieu de recouper manuellement des rapports d'entrepôt 3PL fragmentés, des commandes (POs) en transit et des exportations de ventes Shopify/Amazon, ce **tableur de réapprovisionnement des stocks** suit et résout six angles morts critiques de la chaîne d'approvisionnement :
 
----
-
-## Surmonter les points de douleur des stocks e-commerce avec des solutions automatisées
-
-Au lieu d'auditer manuellement des rapports d'entrepôt fragmentés, des délais fournisseurs et un historique de ventes multicanaux, cette boîte à outils centralise votre visibilité sur la chaîne d'approvisionnement.
-
-Les trackers de stock statiques échouent face aux entreprises modernes de vente directe (DTC) et omnicanales, car la demande est volatile. La publicité payante sur Meta ou TikTok, les promotions saisonnières et le marketing viral peuvent vider les stocks en quelques jours. Cet environnement dynamique crée deux extrêmes coûteux :
-
-- **Point de douleur : ruptures de stock inattendues (demande sous-estimée)**
-  *Solution :* utilise des prévisions de demande glissantes sur 30/90 jours pour ajuster instantanément votre **point de commande (ROP)**, garantissant que vous ne gaspillez jamais de coût d'acquisition client (CAC) sur des articles en rupture.
-- **Point de douleur : fonds de roulement immobilisés (demande surestimée)**
-  *Solution :* emploie des **calculs de stock de sécurité** précis pour éviter l'accumulation excessive de stock, libérer de la trésorerie et accélérer la rotation des stocks.
-- **Point de douleur : cycles de réapprovisionnement désalignés**
-  *Solution :* s'adapte aux **chaînes d'approvisionnement à délais longs** (fret maritime) comme à la **logistique à délais courts** (3PL national). Chaque SKU est évalué indépendamment selon sa quantité minimale de commande (MOQ) et ses contraintes de délai propres.
-
-### Capacités de suivi principales :
-*   **Santé actuelle du stock :** visualisez le stock disponible par rapport aux taux d'épuisement projetés.
-*   **Alertes d'achat actionnables :** identifie les SKU nécessitant un bon de commande (PO) aujourd'hui face à ceux qui sont sainement dans les niveaux optimaux.
-*   **Projection de la demande pendant le délai :** calcule la consommation exacte en unités pendant les fenêtres de transit des fournisseurs.
-*   **Analyse d'exposition de trésorerie :** met en regard les engagements d'achat futurs et le fonds de roulement disponible.
+| Métrique de suivi cible / point de douleur | L'angle mort courant des stocks e-commerce | Comment ce modèle de réapprovisionnement le résout et le suit |
+| :--- | :--- | :--- |
+| **Point de commande (ROP) dynamique et prévention des ruptures** | S'appuyer sur des alertes de réapprovisionnement instinctives ou des moyennes statiques sur 90 jours, causant des ruptures de stock lorsque les dépenses publicitaires passent à l'échelle et gaspillant le coût d'acquisition client (CAC). | Suit la **vitesse des ventes glissante pondérée sur 30 jours vs. 90 jours** pour ajuster dynamiquement les **points de commande (ROP)** au niveau SKU avant que le stock ne s'épuise. |
+| **Stock de sécurité et jours de stock disponible (DOH)** | Surcommande de SKUs à rotation lente par peur, piégeant le fonds de roulement dans des frais de stockage 3PL et freinant la rotation des stocks. | Calcule des **unités de stock de sécurité** à tampon statistique et des **jours de stock disponible (DOH / semaines de couverture)** adaptés à la volatilité de la demande de chaque SKU. |
+| **Stock net disponible (disponible + commandes en transit)** | Commande de stock en double parce que les commandes ouvertes non reçues (en commande / fret maritime ou aérien en transit) ne sont pas déduites du stock d'entrepôt. | Suit la **position de stock nette (`On-Hand + In-Transit POs - Committed Stock`)** par rapport aux fenêtres de dépletion projetées pendant le délai. |
+| **Alignement des délais fournisseur et des contraintes de quantité minimale (MOQ)** | Application d'un tampon de réapprovisionnement uniforme de 30 jours à la fois aux usines de fret maritime outre-mer à 90 jours et aux fournisseurs 3PL nationaux à 7 jours. | Évalue chaque SKU indépendamment en utilisant des **délais de transit spécifiques au fournisseur**, des **quantités minimales de commande (MOQs)** et des règles d'arrondi par colis. |
+| **Trésorerie Open-to-Buy (OTB) et exposition du fonds de roulement** | Soumission de commandes purement sur la base des quantités d'unités sans connaître l'engagement de trésorerie exact requis pour financer la campagne de réapprovisionnement. | Multiplie les quantités de commande suggérées par le **coût unitaire débarqué (COGS)** pour produire en temps réel l'**exposition de trésorerie ($)** et prioriser les commandes lorsque le capital est tendu. |
+| **Triage prioritaire des commandes (PO) actionnable** | Auditer plus de 500 SKUs ligne par ligne chaque lundi matin pour déterminer quels fournisseurs ont besoin d'une commande immédiate vs. quels SKUs sont sûrement stockés. | Génère un **statut d'action SKU automatisé (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** avec les quantités de commande recommandées exactes. |
 
 ---
 
-## Guide de démarrage rapide : automatisez vos décisions de réapprovisionnement dès aujourd'hui
+## Tutoriel de démarrage rapide : comment automatiser vos décisions de réapprovisionnement et de point de commande
 
-Passer des données de ventes brutes à des recommandations d'achat précises prend quelques minutes. Suivez ces étapes fonctionnelles pour configurer votre automatisation de réapprovisionnement.
+Passer d'exportations de ventes omnicanales brutes à une **liste d'actions de commande (PO) prête pour l'audit** prend moins de 5 minutes. Suivez ce flux de réapprovisionnement en 4 étapes :
 
-### Étape 1 : configurer les données de référence SKU et les paramètres de la chaîne d'approvisionnement
-Accédez à l'onglet `Setup_Config`. Saisissez vos indicateurs de stock de base : codes SKU, noms des fournisseurs, délais de transit, MOQ, niveaux de service cibles et coût unitaire.
-*Action :* établissez vos contraintes de base pour laisser l'algorithme personnaliser les seuils d'achat.
+### Étape 1 : configurer les données de référence SKU, les délais et les MOQ des fournisseurs
+Accédez à la feuille de contrôle `Setup_Config` et établissez vos paramètres de chaîne d'approvisionnement pour chaque SKU :
+- **Identifiants SKU et mapping fournisseur :** codes SKU, noms de produits et affectations de fournisseurs principaux.
+- **Contraintes de réapprovisionnement :** **délai (jours)** de production + fret, **quantité minimale de commande (MOQ)**, tampon de sécurité de niveau de service cible et **coût unitaire débarqué ($)**.
 
-### Étape 2 : importer l'historique des ventes omnicanal
-Exportez vos données de ventes brutes depuis Shopify, Amazon Seller Central ou votre ERP, et collez-les directement dans la feuille `Sales_Import`. Mettez à jour les comptes d'entrepôt actuels et les commandes en transit.
-*Action :* alimentez le moteur de prévision sans aucun ajustement manuel de formules ni restructuration des données.
-
-### Étape 3 : générer des recommandations d'achat automatisées
-Ouvrez le tableau de bord exécutif. Le moteur de calcul exécute automatiquement les formules de stock de sécurité et produit des indicateurs actionnables : stock à risque, quantités de commande suggérées et capital requis.
-*Action :* examinez les alertes « ORDER NOW » générées dynamiquement pour prendre des décisions d'approvisionnement immédiates.
-
-### Étape 4 : télécharger le modèle pour une planification hebdomadaire continue
-La démo navigateur est parfaite pour un essai unique. Pour un rapprochement hebdomadaire continu des stocks, une sauvegarde persistante des données et la collaboration d'équipe, passez au fichier local.
-*CTA :* **[télécharger le modèle Excel de gestion des stocks](#)** pour gérer en sécurité vos données internes de chaîne d'approvisionnement et répéter ce flux à chaque cycle de planification.
+*Action :* testez dès maintenant comment les changements de délai et de MOQ impactent les déclencheurs de réapprovisionnement dans l'[application web interactive gratuite de planification des stocks](https://hyvoid.github.io/inventory-planning-reorder-point-excel/).
 
 ---
 
-## Scénarios concrets : quand utiliser ce tableur de contrôle des stocks
+### Étape 2 : importer les ventes historiques et les comptages de stock de Shopify, Amazon FBA ou ERP
+Exportez votre historique brut de ventes d'unités et vos soldes d'entrepôt actuels depuis **Shopify, Amazon Seller Central, Cin7, NetSuite ou votre portail 3PL**, et collez-les directement dans `Sales_Import` et les tableaux de saisie des stocks :
+- Saisissez le **stock d'entrepôt disponible actuel** et les **quantités de commandes ouvertes en transit**.
+- Incluez les ventes d'unités historiques récentes sur 30 jours et 90 jours (plus les multiplicateurs de demande promotionnelle optionnels).
 
-Cette boîte à outils est conçue pour les goulets d'étranglement opérationnels critiques où le timing et le capital se croisent :
-
-*   **Préparation à la haute saison Q4 :** lorsque vous montez en puissance les publicités Meta pour le Black Friday/Cyber Monday (BFCM) et devez justifier mathématiquement des commandes massives de conteneurs outre-mer.
-*   **Lancements de nouveaux produits :** lorsque la vitesse de vente initiale dépasse les moyennes historiques et devez calculer rapidement des quantités de fret aérien express.
-*   **Contraintes de trésorerie :** lorsque la finance limite le budget d'approvisionnement trimestriel et devez prioriser les commandes par urgence opérationnelle stricte plutôt que par intuition.
-*   **Retards de délai fournisseur :** lorsqu'un fabricant clé allonge les délais de 20 jours et devez recalculer instantanément le stock de sécurité pour 500 SKU.
+*Aucune maintenance VLOOKUP ni réécriture de formules requise—la couche d'ingestion normalise automatiquement les données brutes.*
 
 ---
 
-## À qui s'adresse cet outil : rôles cibles et cas d'usage
-
-Conçu pour les professionnels qui gèrent des produits physiques et s'appuient sur un approvisionnement piloté par les données, cet outil améliore directement vos flux de tableurs existants en ciblant des rôles opérationnels précis :
-
-*   **Fondateurs e-commerce et marchands Shopify :** ont besoin d'un *calculateur de réapprovisionnement Shopify* léger pour gérer la logistique 3PL sans logiciel d'entreprise coûteux.
-*   **Vendeurs Amazon FBA :** ont besoin d'un *outil de suivi de stock FBA* pour surveiller les limites de stock d'entrepôt externe face aux exigences des expéditions Amazon entrantes.
-*   **Planificateurs de stock et analystes de la chaîne d'approvisionnement :** recherchent un *modèle Excel de point de commande automatisé* pour standardiser la logique d'achat du service.
-*   **Responsables des opérations et des achats :** recherchent un *outil de gestion des délais fournisseurs* pour aligner les MOQ des vendeurs sur les capacités de stockage internes.
-*   **Directeurs financiers et contrôleurs :** ont besoin d'un *modèle d'allocation du fonds de roulement* pour opposer un veto aux achats de stock surdimensionnés avant que la trésorerie ne soit déployée.
-
-*(Remarque : cela fournit une couche analytique robuste pour les données opérationnelles ; l'objectif n'est pas de remplacer des plateformes ERP, MRP ou de gestion des stocks d'entreprise à grande échelle.)*
+### Étape 3 : examiner les stocks de sécurité, les points de commande et les quantités de commande suggérées automatisés
+Passez au **tableau de bord exécutif de réapprovisionnement**. Le moteur de calcul exécute immédiatement les formules de stock sur l'ensemble de votre catalogue pour produire :
+- **Vitesse des ventes quotidienne pondérée** (unités/jour) et **jours de stock restants (DOH)**
+- **Projection de la demande pendant le délai** et **point de commande (ROP) dynamique**
+- **Alertes « ORDER NOW » priorisées** avec des **quantités de commande suggérées** ajustées au MOQ
+- **Fonds de roulement total requis ($)** pour financer le lot d'achat recommandé
 
 ---
 
-## Analyse approfondie : dépasser les limites des tableurs classiques
+### Étape 4 : télécharger le modèle Excel déverrouillé pour la planification hebdomadaire des stocks
+Si la démo en direct dans le navigateur est idéale pour un test en session unique et la vérification de la logique, les opérations réelles de chaîne d'approvisionnement exigent des instantanés hebdomadaires persistants, des extensions SKU personnalisées et un audit financier interne.
 
-| Problème courant de gestion des stocks | Méthodes des tableurs classiques | Solution de la boîte à outils Excel adaptative |
-|----------------------------------------|---------------------------|----------------------------------------|
-| **Timing d'achat (risque de rupture)** | Audit basé uniquement sur le stock d'entrepôt disponible actuel. | Calcule la **demande pendant le délai**, garantissant que les commandes sont passées en tenant compte de la consommation en transit. |
-| **Variabilité des fournisseurs** | Application d'un tampon uniforme de 30 jours aux vendeurs nationaux et internationaux. | Attribue des **délais spécifiques par SKU**, optimisant les déclencheurs de réapprovisionnement pour le fret local vs international. |
-| **Précision de la prévision de la demande** | Recours à des moyennes historiques statiques sur 90 jours qui ignorent les pics récents. | Utilise un **facteur de tendance dynamique**, amplifiant les quantités de commande lorsque la vitesse de vente récente accélère. |
-| **Efficacité du fonds de roulement** | Les recommandations d'achat sont déconnectées des modèles financiers. | Intègre l'**impact trésorerie**, affichant l'engagement de capital exact requis avant d'approuver une commande. |
-| **Alignement marketing** | Les promotions marketing non planifiées vident rapidement le stock disponible. | Emploie des **multiplicateurs promotionnels** pour augmenter artificiellement la prévision de demande avant le passage à l'échelle des dépenses publicitaires. |
-| **Flux de reporting opérationnel** | Les équipes de la chaîne d'approvisionnement perdent des heures à filtrer manuellement des tableaux croisés dynamiques et des VLOOKUP. | Fait remonter une **liste d'actions d'achat automatisée** priorisée directement sur le tableau de bord exécutif. |
+> 💡 **Prêt à automatiser votre planification de réapprovisionnement hebdomadaire sans payer 1 000+ $/mois de logiciel de stock SaaS ?**  
+> Arrêtez de deviner les quantités de réapprovisionnement ou de reconstruire des tableurs cassés chaque lundi.  
+> 👉 **[Télécharger le modèle Excel entièrement déverrouillé de planification des stocks et de décision d'achat](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** pour brancher votre propre catalogue SKU, enregistrer les historiques d'approvisionnement hebdomadaires, personnaliser les pondérations de prévision et partager des fiches d'approbation de commandes propres avec votre équipe financière.
 
 ---
 
-## À propos
+## La logique métier et la méthodologie
 
-Je conçois des outils opérationnels légers pour les situations où il y a tout simplement trop de pièces en mouvement pour les garder en tête.
+La plupart des modèles Excel de stock standard échouent dans les opérations e-commerce réelles parce qu'ils traitent **la vitesse de la demande comme statique** et **les chaînes d'approvisionnement comme instantanées**. Si un tableur divise simplement les ventes sur 90 jours par 90, une campagne TikTok virale ou une montée saisonnière du T4 provoquera une rupture de stock immédiate avant qu'un conteneur outre-mer ne quitte le port.
 
-Plutôt que de créer un tableau de bord de plus rempli d'indicateurs, je me concentre sur une question pratique :
+Pour résoudre l'arbitrage mathématique entre le **niveau de service (risque de rupture)** et l'**efficience du fonds de roulement (risque de surstock)**, cette boîte à outils met en œuvre une **méthodologie de réapprovisionnement quantitative en 4 étapes** :
 
-> **Quelles informations doivent apparaître ensemble pour que la prochaine décision opérationnelle puisse être prise avec confiance ?**
+1. **Pondération de vitesse adaptative à la demande (tendance court terme vs. référence long terme) :**  
+   Se fier uniquement à une moyenne sur 90 jours retarde sur les tendances de croissance ; se fier uniquement à une fenêtre de 7 ou 30 jours surréagit au bruit temporaire. Ce modèle calcule une **vitesse de demande quotidienne mélangée ($D_{\text{adaptatif}}$)** en comparant l'accélération des ventes court terme ($V_{30}$) à la référence historique ($V_{90}$), couplée à un **multiplicateur promotionnel optionnel ($M_{\text{promo}}$)**:
+   $$D_{\text{adaptatif}} = \left( w_1 \cdot V_{30} + w_2 \cdot V_{90} \right) \times M_{\text{promo}}$$
+   Lorsque la vitesse des ventes récentes accélère au-dessus de la moyenne historique, le modèle augmente dynamiquement les projections de demande futures pour protéger les gagnants à haute vitesse contre les ruptures de stock.
+2. **Modélisation de la dépletion du délai et du point de commande (ROP) dynamique :**  
+   Une commande passée aujourd'hui n'arrivera pas avant que le fournisseur ne termine la fabrication et le transit de fret ($L$ jours). Pendant cette fenêtre, votre stock existant continue de se dépléter. Le moteur calcule la **demande pendant le délai ($D_{\text{LT}} = D_{\text{adaptatif}} \times L$)** et ajoute un **tampon de stock de sécurité dynamique ($SS$)** calibré sur le risque de délai et la variance de la demande :
+   $$\text{Point de commande (ROP)} = \left( D_{\text{adaptatif}} \times \text{Délai}_{\text{jours}} \right) + \text{Stock de sécurité}$$
+   Chaque fois que la **position de stock nette ($\text{disponible} + \text{en commande} - \text{engagé}$)** d'un SKU tombe au niveau de $\text{ROP}$ ou en dessous, le moteur d'état fait basculer le statut du SKU vers `ORDER NOW`.
+3. **Optimisation des quantités de commande sous contrainte de quantité minimale (MOQ) :**  
+   Calculer un déficit brut de 142 unités est inutile si votre fabricant sous contrat impose une **quantité minimale de commande (MOQ)** de 500 unités. L'algorithme d'achat évalue l'écart net de réapprovisionnement requis pour couvrir le cycle de couverture cible ($C_{\text{target}}$ jours) plus le délai, et résout la **quantité de commande recommandée finale ($Q_{\text{PO}}$)** par bornage de contraintes :
+   $$Q_{\text{PO}} = \max \left( \text{MOQ}, \; \text{Niveau de stock cible} - \text{Position de stock nette} \right)$$
+4. **Évaluation du fonds de roulement et de l'exposition de trésorerie (intégration Open-to-Buy) :**  
+   Les planificateurs de chaîne d'approvisionnement pensent en *unités*, tandis que les CFO et fondateurs pensent en *flux de trésorerie*. Chaque commande recommandée est multipliée par son `Unit_COGS` ($C_i \times Q_{\text{PO}, i}$) et agrégée par palier d'urgence. Cela relie directement le réapprovisionnement des stocks physiques à la **gestion de trésorerie Open-to-Buy (OTB)**, permettant aux équipes de voir l'exposition de capital exacte avant de verser les acomptes aux fournisseurs.
 
-Inventory Planning Control Tower est un exemple de cette approche. Il combine prévision de la demande, contraintes fournisseurs, risque de stock et exposition de trésorerie dans un cadre réutilisable d'aide à la décision que les organisations peuvent exploiter et maintenir elles-mêmes.
+---
+
+## Scénarios réels d'e-commerce et de chaîne d'approvisionnement que cela résout
+
+Si votre équipe opérationnelle ou financière recherche un modèle de tableur fiable pour traiter l'un des goulets d'étranglement de stock suivants, cette boîte à outils est préconstruite pour la tâche :
+
+- **Prévision des stocks de pointe T4 / BFCM :** *Comment calculer les quantités exactes de commandes de conteneurs outre-mer en juillet/août lorsque je passe à l'échelle les dépenses publicitaires Meta et Google pour le Black Friday / Cyber Monday ?*
+- **Réapprovisionnement Amazon FBA et gestion des tampons 3PL :** *Comment coordonner les transferts de stock entre une usine outre-mer, un entrepôt de transit 3PL national et les centres de fulfillment Amazon FBA entrants sans rupture de stock ni déclenchement des surcharges de stock ancien FBA ?*
+- **Priorisation des commandes sous contrainte de trésorerie (crise de fonds de roulement) :** *Lorsque notre budget d'approvisionnement trimestriel Open-to-Buy (OTB) est plafonné à 150 000 $, quels SKUs spécifiques doivent être commandés aujourd'hui pour prévenir les pertes de revenus, et quelles commandes peuvent être différées en sécurité ?*
+- **Choc de délai fournisseur et planification du Nouvel An chinois (CNY) :** *Lorsque les usines outre-mer ferment pendant plus de 30 jours pendant le Nouvel An chinois ou que les temps de transit maritime doublent, comment recalculer instantanément le stock de sécurité et les points de commande sur plus de 500 SKUs ?*
+- **Ajustements de vitesse de lancement de nouveaux produits :** *Lorsqu'un SKU héros nouvellement lancé se vend 3 fois plus vite que les projections initiales, combien de stock-pont en fret aérien devons-nous commander pour couvrir l'écart avant l'arrivée de la prochaine expédition maritime ?*
+
+---
+
+## Anciens trackers de stock vs. ce modèle de réapprovisionnement adaptatif à la demande
+
+| Dimension de planification des stocks | Tableurs hérités statiques (sans cet outil) | Boîte à outils Excel de stocks adaptative à la demande (avec cet outil) |
+| :--- | :--- | :--- |
+| **Logique de déclenchement d'achat (risque de rupture)** | Recommander uniquement sur la base des unités d'entrepôt actuellement disponibles, en ignorant la dépletion du stock pendant le transit et les commandes ouvertes en transit. | Évalue la **position de stock nette vs. la demande pendant le délai**, déclenchant des alertes de commande avant que le stock ne tombe sous le seuil de sécurité. |
+| **Contraintes de délai fournisseur et de quantité minimale (MOQ)** | Application d'un tampon générique de 30 jours à tous les fournisseurs, en ignorant les délais de fret maritime de 90 jours et les quantités minimales de commande d'usine (MOQs). | Attribue des **délais et MOQs spécifiques par SKU**, en bornant automatiquement les quantités de commande suggérées aux contraintes valides des fournisseurs. |
+| **Sensibilité à la vitesse des ventes et aux tendances** | S'appuyer sur des moyennes historiques plates sur 90 jours ou 12 mois qui ne réagissent pas lorsque les publicités payantes ou les tendances saisonnières accélèrent les ventes. | Utilise la **pondération de vitesse dynamique sur 30/90 jours**, augmentant automatiquement les quantités de réapprovisionnement lorsque la demande court terme monte en pic. |
+| **Visibilité du fonds de roulement et de la trésorerie** | Les planificateurs de stock génèrent des listes de réapprovisionnement en unités de manière isolée, forçant la finance à calculer manuellement l'impact de trésorerie dans une feuille séparée. | L'**évaluation d'exposition de trésorerie intégrée (`PO Units × Unit COGS`)** affiche les engagements de fonds de roulement exacts directement sur le tableau de bord. |
+| **Alignement promotionnel et passage à l'échelle publicitaire** | Le marketing lance une vente flash à -30 % ou double les dépenses publicitaires sans visibilité sur la chaîne d'approvisionnement, effaçant 60 jours de stock en un week-end. | Intègre des **multiplicateurs de demande promotionnelle**, permettant aux planificateurs de tester la couverture des stocks avant les campagnes marketing. |
+| **Flux d'approvisionnement hebdomadaire** | Les analystes passent plus de 4 heures chaque semaine à réparer des formules `VLOOKUP` cassées, reconstruire des tableaux croisés dynamiques et surligner manuellement les lignes de stock bas. | Produit une **liste d'actions de commande priorisée et codée par couleur (`ORDER NOW` vs. `HEALTHY`)** prête pour la génération immédiate de commandes fournisseurs. |
+
+---
+
+## Pour qui c'est : rôles cibles de la chaîne d'approvisionnement et cas d'usage e-commerce
+
+Conçu pour les opérateurs qui gèrent un stock physique et ont besoin d'un moteur de planification rigoureux et transparent entre les exportations ERP/Shopify brutes et les plateformes SaaS d'entreprise coûteuses :
+
+- **Fondateurs e-commerce DTC et marchands Shopify / WooCommerce :** utilisez ceci comme une **calculatrice légère de réapprovisionnement et de réassort Shopify** pour prévenir le gaspillage publicitaire sur ruptures de stock, gérer les niveaux de stock 3PL et planifier les réassorts d'usine outre-mer sans payer 500–2 000 $/mois d'applications de prévision SaaS.
+- **Vendeurs Amazon FBA et agrégateurs de marketplaces :** utilisez ceci comme un **tableur de planification de réapprovisionnement Amazon FBA et de tampons 3PL** pour équilibrer les délais de production des fournisseurs, les fenêtres de fret maritime/aérien et le timing des expéditions entrantes FBA afin de protéger votre score IPI (Inventory Performance Index).
+- **Planificateurs de stock, planificateurs de la demande et analystes de chaîne d'approvisionnement :** utilisez ceci comme un **modèle Excel standardisé de point de commande (ROP) et de stock de sécurité** pour remplacer des tableurs internes fragiles et sujets aux erreurs par un modèle de réapprovisionnement auditable.
+- **Responsables des opérations et acheteurs approvisionnement/procurement :** utilisez ceci comme un **générateur automatisé de commandes (PO) et calculateur de MOQ fournisseur** pour transformer les comptages de stock hebdomadaires en quantités de commande exactes, prêtes pour les fournisseurs, en quelques minutes.
+- **CFO e-commerce, contrôleurs financiers et comptables de stock :** utilisez ceci comme un **modèle de prévision de trésorerie du fonds de roulement et Open-to-Buy (OTB)** pour auditer les demandes d'achat, prévenir la surcommande sur les SKUs de palier C et optimiser les ratios de rotation des stocks.
+
+*Remarque : ce classeur n'est **pas** un système de gestion d'entrepôt (WMS) à scan de codes-barres en direct, une plateforme de routage de commandes EDI automatisée, ni un ERP statutaire complet. C'est la **couche de décision tactique de planification de la demande et d'achat** qui vous dit **quoi commander, combien commander, quand commander et combien de trésorerie cela coûtera.***
+
+---
+
+## À propos de Theseus Workshop
+
+Je construis des systèmes d'aide à la décision légers et transparents, en Excel et dans le navigateur, pour les goulets d'étranglement opérationnels où il y a trop de variables en interaction pour les suivre mentalement—mais où les logiciels d'entreprise lourds créent des coûts et une complexité inutiles.
+
+Plutôt que de construire un autre tableau de bord vaniteux encombré, chaque boîte à outils est conçue autour d'une question pratique :
+
+> **« Quelles variables opérationnelles et financières exactes doivent siéger en un seul endroit pour que la prochaine décision d'achat ou de capital devienne mathématiquement évidente ? »**
+
+Cette **boîte à outils de planification des stocks et de décision d'achat adaptative à la demande** unit la prévision de demande glissante, les contraintes de délai fournisseur, les mathématiques de stock de sécurité et l'exposition du fonds de roulement dans un cadre autosuffisant que toute équipe e-commerce ou de chaîne d'approvisionnement peut auditer, personnaliser et posséder pour toujours.
+
+---
+*Mots-clés : modèle Excel de planification des stocks, tableur calculateur de point de commande (ROP), formule de stock de sécurité Excel, modèle de réapprovisionnement des stocks e-commerce, calculateur de réassort Shopify, tracker de stock Amazon FBA, planificateur de commandes (PO) de chaîne d'approvisionnement, tableur de fonds de roulement Open-to-Buy (OTB).*
 
 ---
 
