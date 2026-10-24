@@ -1,121 +1,155 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Excel-sjabloon voor vraagadaptieve voorraadplanning en inkoopbeslissingen
+# Excel-sjabloon voor voorraadplanning en bestelpunt (ROP)-calculator voor e-commerce, Shopify en Amazon FBA
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/ab946235-54c1-4cb6-8957-f3fc601b803a" />
 
-<div align="left">
-  <strong>Een geautomatiseerd Excel-sjabloon voor voorraadplanning en inkoopbeslissingen, ontworpen voor DTC-merken, e-commerceverkopers en supply chain managers. Gratis te testen in je browser of te downloaden als aanpasbare spreadsheet om voorraadtekorten te voorkomen, levertijden van leveranciers te sturen en werkkapitaal te optimaliseren.</strong>
-</div>
-
-<br>
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Inventory%20Planning%20%26%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Inventory%20Replenishment%20%26%20ROP%20Model-orange)
+
+**Een geautomatiseerd Excel-sjabloon voor voorraadplanning, een bestelpunt (ROP)-calculator en een veiligheidsvoorraad-spreadsheet, gebouwd voor DTC-e-commercemarken, Shopify-handelaars, Amazon FBA-verkopers en supply chain managers. Combineer rollende verkoopsnelheidsprognoses over 30/90 dagen, buffers voor levertijden van leveranciers, MOQ-beperkingen en Open-to-Buy (OTB)-werkkapitaalblootstelling in één beslissingsondersteunend model—gratis beschikbaar in je browser of als ontgrendeld Excel-werkboek.**
+
+**Geen registratie. Geen installatie. Gratis te testen in je browser.**
+
+Test de cloudgebaseerde interactieve webapplicatie direct zonder enige setup, of download het volledig ontgrendelde Excel-spreadsheetsjabloon voor je wekelijkse offline nabestelwerkstromen—gedekt door een 30-daagse geld-terug-garantie zonder vragen.
+
+> 🌐 **Probeer de webcalculator:** [Open de gratis interactieve web-app voor voorraadaanvulling en bestelpunt (livedemo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)  
+> 📥 **Download het volledige Excel-model:** [Download het volledig ontgrendelde Excel-sjabloon voor voorraadplanning, veiligheidsvoorraad en PO-beslissingen ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
+> ⚙️ **Aanvulwiskunde:** [Ga naar de bedrijfslogica en voorraadmethodologie](#the-business-logic--methodology)
 
 ---
 
-**Automatiseer je aanvulcyclus door historische verkoopvoorspelling, risicobeoordeling van leverancierslevertijden, bestelpuntberekening en kapitaalblootstelling te combineren in één licht beslissingsondersteunend hulpmiddel.**
+## Wat het helpt volgen: pijnpunten in e-commercevoorraad gekoppeld aan oplossingen
 
-Probeer de cloudgebaseerde HTML-versie direct, zonder installatie, of download de volledig ontgrendelde spreadsheet voor je operationele offline werkstromen.
+Statische voorraadspreadsheets falen bij moderne direct-to-consumer (DTC)-, Amazon FBA- en omnichannel-groothandelsmerken, omdat verkoopsnelheid en levertijden voor overzees vervoer sterk volatiel zijn. Opschaling van paid social op Meta/TikTok, BFCM-flashsales of havencongestie kunnen ernstige voorraadtekorten veroorzaken of honderdduizenden dollars in dode voorraad vastzetten.
 
-> 🌐 **Probeer de web-app**
-> [Open de gratis interactieve web-app voor voorraadplanning (HTML-livedemo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
->
-> 📥 **Download de spreadsheet**
-> [Download het volledig ontgrendelde Excel-sjabloon voor voorraadbeheer ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+In plaats van gefragmenteerde 3PL-magazijnrapporten, in-transit inkooporders (PO's) en Shopify/Amazon-verkoopexporten handmatig te kruisverwijzen, volgt en lost dit **voorraadaanvullingsspreadsheet** zes kritieke blinde vlekken in de toeleveringsketen op:
 
----
-
-## Overwin pijnpunten in e-commercevoorraad met geautomatiseerde oplossingen
-
-In plaats van gefragmenteerde magazijnrapporten, levertijden van leveranciers en multichannel-verkoopgeschiedenis handmatig te auditen, centraliseert deze toolkit je supply chain-zicht.
-
-Statische voorraadtrackers falen bij moderne direct-to-consumer (DTC)- en omnichannelbedrijven, omdat de vraag volatiel is. Betaalde advertenties op Meta of TikTok, seizoenspromoties en virale marketing kunnen voorraad binnen enkele dagen leegetten. Deze dynamische omgeving creëert twee kostbare uitersten:
-
-- **Pijnpunt: onverwachte voorraadtekorten (vraag onderschatten)**
-  *Oplossing:* gebruikt rollende 30/90-dagen-vraagvoorspelling om je **bestelpunt (ROP)** direct aan te passen, zodat je nooit customer acquisition cost (CAC) verspilt aan uitverkochte artikelen.
-- **Pijnpunt: geblokkeerd werkkapitaal (vraag overschatten)**
-  *Oplossing:* zet precieze **veiligheidsvoorraadberekeningen** in om overmatige voorraadophoping te voorkomen, kas vrij te maken en de voorraadrotatie te versnellen.
-- **Pijnpunt: verkeerd afgestemde aanvulcycli**
-  *Oplossing:* past zich aan aan zowel **toeleveringsketens met lange levertijden** (zeefracht) als **logistiek met korte levertijden** (binnenlandse 3PL). Het beoordeelt elke SKU onafhankelijk op basis van zijn unieke minimale bestelhoeveelheid (MOQ) en levertijdbeperkingen.
-
-### Kernmogelijkheden voor monitoring:
-*   **Huidige voorraadgezondheid:** visualiseer beschikbare voorraad versus geprojecteerde uitputtingssnelheden.
-*   **Actionable inkoopwaarschuwingen:** identificeert welke SKUs vandaag een inkooporder (PO) vereisen tegenover die welke veilig binnen de optimale niveaus liggen.
-*   **Vraag tijdens de levertijd:** berekent het exacte eenhedenverbruik tijdens de transitvensters van leveranciers.
-*   **Kapitaalblootstellingsanalyse:** brengt toekomstige inkoopverplichtingen in kaart tegen het beschikbare werkkapitaal.
+| Doel-trackingsmetriek / pijnpunt | De veelvoorkomende blinde vlek in e-commercevoorraad | Hoe dit aanvulmodel het oplost en volgt |
+| :--- | :--- | :--- |
+| **Dynamisch bestelpunt (ROP) en preventie van voorraadtekorten** | Vertrouwen op onderbuikgevoel-nabestelwaarschuwingen of statieke 90-dagen-gemiddelden, wat voorraadtekorten veroorzaakt wanneer advertentiebudgetten opschalen en customer acquisition cost (CAC) verspilt aan uitverkochte artikelen. | Volgt **rollende gewogen verkoopsnelheid over 30 vs. 90 dagen** om **bestelpunten (ROP)** op SKU-niveau dynamisch aan te passen voordat de voorraad opraakt. |
+| **Veiligheidsvoorraad en dagen voorraad op voorraad (DOH)** | Overbestellen van langzaam roterende SKUs uit angst, wat werkkapitaal vastzet in 3PL-opslagkosten en de voorraadrotatie vertraagt. | Berekent statistisch gebufferde **veiligheidsvoorraadeenheden** en **dagen voorraad op voorraad (DOH / weken voorraad)**, toegesneden op de vraagvolatiliteit van elke SKU. |
+| **Netto beschikbare voorraad (op voorraad + in-transit PO's)** | Dubbel bestellen omdat open, niet-ontvangen inkooporders (in bestelling / overzees of luchtvracht in transit) niet worden verrekend met magazijnvoorraad. | Volgt de **netto voorraadpositie (`On-Hand + In-Transit POs - Committed Stock`)** tegen geprojecteerde uitputtingsvensters tijdens de levertijd. |
+| **Afstemming van levertijden leveranciers en MOQ-beperkingen** | Toepassen van een uniforme nabestelbuffer van 30 dagen op zowel overzeese fabrieken met 90 dagen zeevracht als binnenlandse 3PL-nabestelleveranciers met 7 dagen. | Beoordeelt elke SKU onafhankelijk met **leverancierspecifieke transitlevertijden**, **minimale bestelhoeveelheden (MOQ's)** en regels voor afronden per colli. |
+| **Open-to-Buy (OTB)-kasstroom en werkkapitaalblootstelling** | Indienen van inkooporders puur op basis van eenheidenaantallen zonder de exacte kasverbintenis te kennen die nodig is om de nabestelronde te financieren. | Vermenigvuldigt voorgestelde PO-hoeveelheden met **eenheids-geleverde COGS** om **kasstroomblootstelling ($)** in realtime uit te voeren en PO's te prioriteren wanneer kapitaal schaars is. |
+| **Actionable prioritering van inkooporders (PO)** | Elke maandagochtend 500+ SKUs regel voor regel auditen om te bepalen welke leveranciers een directe PO nodig hebben vs. welke SKUs veilig op voorraad zitten. | Genereert een geautomatiseerde **SKU-actiestatus (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** met exacte aanbevolen PO-bestelhoeveelheden. |
 
 ---
 
-## Snelstartgids: automatiseer je nabestelbeslissingen vandaag
+## Snelstartgids: automatiseer je nabestel- en bestelpuntbeslissingen
 
-De overstap van ruwe verkoopgegevens naar precieze inkoopadviezen duurt minuten. Volg deze functionele stappen om je nabestelautomatisering in te stellen.
+De overstap van ruwe omnichannel-verkoopexporten naar een auditklare **lijst met inkooporderacties (PO)** duurt minder dan 5 minuten. Volg deze nabestelwerkstroom in 4 stappen:
 
-### Stap 1: configureer SKU-stamgegevens en parameters van de toeleveringsketen
-Ga naar het tabblad `Setup_Config`. Voer je basis-voorraadmetrics in: SKU-codes, leveranciersnamen, transitlevertijden, MOQs, doel-serviceniveaus en stukkosten.
-*Actie:* leg je basisbeperkingen vast zodat het algoritme de inkoopdrempels individueel kan aanpassen.
+### Stap 1: configureer SKU-stamgegevens, levertijden en MOQ's van leveranciers
+Ga naar het tabblad `Setup_Config` en leg je toeleveringsketenparameters voor elke SKU vast:
+- **SKU-identificatoren en leverancierskoppeling:** SKU-codes, productnamen en primaire leverancierstoewijzingen.
+- **Nabestelbeperkingen:** **levertijd (dagen)** voor productie + vervoer, **minimale bestelhoeveelheid (MOQ)**, beoogde serviceniveau-veiligheidsbuffer en **eenheids-geleverde COGS ($)**.
 
-### Stap 2: importeer historische omnichannel-verkoopgegevens
-Exporteer je ruwe verkoopgegevens uit Shopify, Amazon Seller Central of je ERP, en plak ze direct in het blad `Sales_Import`. Werk de huidige magazijntellingen en inkooporders onderweg bij.
-*Actie:* voed de voorspellingsmotor zonder handmatige formulieraanpassingen of gegevensherstructurering.
-
-### Stap 3: genereer geautomatiseerde inkoopadviezen
-Open het managementdashboard. De berekeningsmotor voert de veiligheidsvoorraadformules automatisch uit en levert actionable metrics: voorraad op risico, voorgestelde bestelhoeveelheden en vereist kapitaal.
-*Actie:* bekijk de dynamisch gegenereerde „ORDER NOW”-waarschuwingen om direct inkoopbeslissingen te nemen.
-
-### Stap 4: download het sjabloon voor doorlopende weekplanning
-De browserdemo is perfect voor één proefronde. Voor doorlopende wekelijkse voorraadafstemming, persistent opslaan van gegevens en teamsamenwerking stap je over naar het lokale bestand.
-*CTA:* **[download het Excel-sjabloon voor voorraadbeheer](#)** om je interne supply chain-gegevens veilig te beheren en deze werkstroom elke plancyclus te herhalen.
+*Actie:* test nu hoe veranderingen in levertijd en MOQ nabesteltriggers beïnvloeden in de [gratis interactieve web-app voor voorraadplanning](https://hyvoid.github.io/inventory-planning-reorder-point-excel/).
 
 ---
 
-## Praktijkscenario's: wanneer gebruik je dit voorraadbeheersblad
+### Stap 2: importeer historische verkopen en voorraadtellingen van Shopify, Amazon FBA of ERP
+Exporteer je ruwe verkoopgeschiedenis in eenheden en huidige magazijnsaldi uit **Shopify, Amazon Seller Central, Cin7, NetSuite of je 3PL-portaal**, en plak ze direct in `Sales_Import` en de voorraadinvoertabellen:
+- Voer **huidige op-voorraad magazijnvoorraad** en **open in-transit PO-hoeveelheden** in.
+- Neem recente historische verkoop in eenheden over 30 en 90 dagen op (plus optionele promotionele vraagmultiplicatoren).
 
-Deze toolkit is gebouwd voor kritische operationele knelpunten waar timing en kapitaal elkaar kruisen:
-
-*   **Voorbereiding op het Q4-hoogseizoen:** wanneer je Meta-advertenties opschaalt voor Black Friday/Cyber Monday (BFCM) en massale containerorders uit het buitenland wiskundig moet onderbouwen.
-*   **Lanceringen van nieuwe producten:** wanneer de aanvankelijke verkoopsnelheid historische gemiddelden overstijgt en je snel spoedluchtvrachthoeveelheden moet berekenen.
-*   **Beperkingen in kasstroom:** wanneer financiën het driemaandelijkse inkoopbudget begrenst en je inkooporders moet prioriteren op strikte operationele urgentie in plaats van op onderbuikgevoel.
-*   **Vertragingen in levertijden van leveranciers:** wanneer een kernfabrikant de levertijden met 20 dagen verlengt en je de veiligheidsvoorraad voor 500 SKUs direct moet herberekenen.
+*Geen VLOOKUP-onderhoud of formulierherschrijving nodig—de ingestielaag normaliseert ruwe gegevens automatisch.*
 
 ---
 
-## Voor wie dit is: doelrollen en specifieke toepassingen
-
-Ontworpen voor professionals die fysieke producten beheren en leunen op datagestuurde inkoop, werkt deze tool je bestaande spreadsheetwerkstromen direct bij door zich te richten op specifieke operationele rollen:
-
-*   **E-commerceoprichters en Shopify-handelaars:** hebben een lichte *Shopify-nabestelcalculator* nodig om 3PL-fulfillment te beheren zonder dure enterprise-software.
-*   **Amazon FBA-verkopers:** hebben een *FBA-voorraadtracker* nodig om externe magazijnvoorraadlimieten te bewaken tegen aankomende Amazon-inbound-zendingsvereisten.
-*   **Voorraadplanners en supply chain-analisten:** zoeken een *geautomatiseerd bestelpunt-Excel-sjabloon* om de inkooplogica van de afdeling te standaardiseren.
-*   **Operationele en inkoopmanagers:** zoeken een *hulpmiddel voor beheer van leverancierslevertijden* om MOQs van leveranciers af te stemmen op interne opslagcapaciteiten.
-*   **Financiële managers en controllers:** hebben een *model voor toewijzing van werkkapitaal* nodig om te grote voorraadaankopen te vetoën voordat kas wordt ingezet.
-
-*(Opmerking: dit biedt een robuuste analytische laag voor operationele gegevens; het is niet bedoeld om volledige ERP-, MRP- of enterprise-voorraadbeheerplatformen te vervangen.)*
+### Stap 3: beoordeel geautomatiseerde veiligheidsvoorraad, ROP en voorgestelde PO-hoeveelheden
+Schakel over naar het **executive voorraadaanvullingsdashboard**. De berekeningsmotor voert de voorraadformules direct over je hele catalogus uit en geeft:
+- **Gewogen dagelijkse verkoopsnelheid** (eenheden/dag) en **dagen resterende voorraad (DOH)**
+- **Vraagprognose tijdens de levertijd** en **dynamisch bestelpunt (ROP)**
+- **Geprioriteerde „ORDER NOW”-waarschuwingen** met MOQ-aangepaste **voorgestelde PO-hoeveelheden**
+- **Totaal vereist werkkapitaal ($)** om de aanbevolen inkoopbatch te financieren
 
 ---
 
-## Diepgaande analyse: de beperkingen van traditionele spreadsheets te boven komen
+### Stap 4: download het ontgrendelde Excel-sjabloon voor wekelijkse voorraadplanning
+Terwijl de browserlivedemo ideaal is voor testen in één sessie en verificatie van de logica, vereisen echte toeleveringsketenoperaties persistente wekelijkse snapshots, aangepaste SKU-uitbreidingen en interne financiële auditing.
 
-| Veelvoorkomend pijnpunt in voorraadbeheer | Methoden van traditionele spreadsheets | Oplossing van de vraagadaptieve Excel-toolkit |
-|----------------------------------------|---------------------------|----------------------------------------|
-| **Inkooptiming (risico op voorraadtekort)** | Auditing baseert uitsluitend op de huidige beschikbare magazijnvoorraad. | Berekent de **vraag tijdens de levertijd**, zodat inkooporders worden geplaatst rekening houdend met transitverbruik. |
-| **Variabiliteit van leveranciers** | Een uniforme buffer van 30 dagen toepassen op zowel binnenlandse als buitenlandse leveranciers. | Kent **SKU-specifieke levertijden** toe en optimaliseert nabesteltriggers voor lokaal versus internationaal vervoer. |
-| **Nauwkeurigheid van vraagvoorspelling** | Leunen op statieke gemiddelden over 90 dagen die recente pieken negeren. | Gebruikt een **dynamische trendfactor** die bestelhoeveelheden verhoogt wanneer de recente verkoopsnelheid versnelt. |
-| **Efficiëntie van werkkapitaal** | Inkoopadviezen zijn losgekoppeld van financiële modellen. | Integreert de **kasimpact** en toont de exacte kapitaalverbintenis die vereist is voordat een inkooporder wordt goedgekeurd. |
-| **Afstemming met marketing** | Ongeplande marketingpromoties putten beschikbare voorraad snel leeg. | Past **promotiemultiplicatoren** toe om de vraagvoorspelling kunstmatig te verhogen vóór het opschalen van advertentiebudgetten. |
-| **Operationele rapportagewerkstroom** | Supply chain-teams verspillen uren aan handmatig filteren van draaitabellen en VLOOKUPs. | Brengt een geprioriteerde **geautomatiseerde inkoopactielijst** direct naar boven op het managementdashboard. |
+> 💡 **Klaar om je wekelijkse nabestelplanning te automatiseren zonder $1.000+/maand te betalen voor SaaS-voorraadsoftware?**  
+> Stop met het gokken naar nabestelhoeveelheden of het elke maandag opnieuw bouwen van kapotte spreadsheets.  
+> 👉 **[Download het volledig ontgrendelde Excel-sjabloon voor voorraadplanning en inkoopbeslissingen](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** om je eigen SKU-catalogus in te pluggen, historische wekelijkse inkooplogboeken op te slaan, prognosegewichten aan te passen en schone PO-goedkeuringsbladen te delen met je financiële team.
 
 ---
 
-## Over dit project
+## De bedrijfslogica en methodologie
 
-Ik bouw lichtgewicht operationele hulpmiddelen voor situaties waarin er simpelweg te veel bewegende delen zijn om in je hoofd te houden.
+De meeste standaard Excel-voorraadsjablonen falen in echte e-commerceoperaties omdat ze **verkoopsnelheid als statisch** en **toeleveringsketens als ogenblikkelijk** behandelen. Als een spreadsheet verkopen over 90 dagen simpelweg door 90 deelt, zal een virale TikTok-campagne of een Q4-seizoensstap een onmiddellijk voorraadtekort veroorzaken voordat een overzeese container de haven verlaat.
 
-In plaats van nog een dashboard vol metrics te creëren, focus ik op één praktische vraag:
+Om de wiskundige afweging tussen **servicelevel (risico op voorraadtekort)** en **werkkapitaalefficiëntie (risico op overvoorraad)** op te lossen, implementeert deze toolkit een **kwantitatieve nabestelmethodologie in 4 fasen**:
 
-> **Welke informatie moet samen verschijnen zodat de volgende operationele beslissing vertrouwd kan worden genomen?**
+1. **Vraagadaptieve snelheidsgewichting (kortetermijntrend vs. langetermijnbasislijn):**  
+   Uitsluitend vertrouwen op een 90-dagen-gemiddelde loopt achter op groeitrends; uitsluitend vertrouwen op een venster van 7 of 30 dagen overreageert op tijdelijke ruis. Dit model berekent een **gecombineerde dagelijkse vraagsnelheid ($D_{\text{adaptief}}$)** door kortetermijnverkoopsversnelling ($V_{30}$) te vergelijken met de historische basislijn ($V_{90}$), gekoppeld aan een optionele **promotiemultiplicator ($M_{\text{promo}}$)**:
+   $$D_{\text{adaptief}} = \left( w_1 \cdot V_{30} + w_2 \cdot V_{90} \right) \times M_{\text{promo}}$$
+   Wanneer de recente verkoopsnelheid boven het historische gemiddelde versnelt, schaalt het model voorwaardse vraagprognoses dynamisch op om winnaars met hoge snelheid te beschermen tegen voorraadtekorten.
+2. **Modelvorming van uitputting tijdens de levertijd en dynamisch bestelpunt (ROP):**  
+   Een vandaag geplaatste order arriveert niet voordat de leverancier fabricage en vrachttransit heeft voltooid ($L$ dagen). Gedurende dat venster blijft je bestaande voorraad uitputten. De motor berekent de **vraag tijdens de levertijd ($D_{\text{LT}} = D_{\text{adaptief}} \times L$)** en voegt een dynamische **veiligheidsvoorraadbuffer ($SS$)** toe, gekalibreerd op levertijdrisico en vraagvariantie:
+   $$\text{Bestelpunt (ROP)} = \left( D_{\text{adaptief}} \times \text{Levertijd}_{\text{dagen}} \right) + \text{Veiligheidsvoorraad}$$
+   Zodra de **netto voorraadpositie ($\text{op voorraad} + \text{in bestelling} - \text{toegezegd}$)** van een SKU op of onder $\text{ROP}$ zakt, kantelt de statemotor de SKU-status naar `ORDER NOW`.
+3. **Optimalisatie van bestelhoeveelheden onder MOQ-beperking:**  
+   Een ruw tekort van 142 eenheden berekenen is nutteloos als je contractfabrikant een **minimale bestelhoeveelheid (MOQ)** van 500 eenheden handhaaft. Het inkoopalgoritme evalueert de netto nabestelklove die nodig is om de beoogde dekkingscyclus ($C_{\text{target}}$ dagen) plus levertijd te dekken, en lost de uiteindelijke **aanbevolen PO-hoeveelheid ($Q_{\text{PO}}$)** op via constraintbegrenzing:
+   $$Q_{\text{PO}} = \max \left( \text{MOQ}, \; \text{Doelvoorraadniveau} - \text{Netto voorraadpositie} \right)$$
+4. **Werkkapitaal- en kasblootstellingswaardering (Open-to-Buy-integratie):**  
+   Supply chain-planners denken in *eenheden*, terwijl CFO's en oprichters denken in *kasstroom*. Elke aanbevolen inkooporder wordt vermenigvuldigd met zijn `Unit_COGS` ($C_i \times Q_{\text{PO}, i}$) en geaggregeerd naar urgentieniveau. Dit koppelt fysieke voorraadaanvulling direct aan **Open-to-Buy (OTB)-kasstroombeheer**, waardoor teams de exacte kapitaalblootstelling kunnen zien voordat leveranciersaanbetalingen worden gedaan.
 
-Inventory Planning Control Tower is één voorbeeld van die aanpak. Het combineert vraagvoorspelling, leveranciersbeperkingen, voorraadrisico en kapitaalblootstelling in een herbruikbaar beslissingsondersteunend raamwerk dat organisaties zelf kunnen bedienen en onderhouden.
+---
+
+## Praktijkscenario's uit e-commerce en toeleveringsketen die dit oplost
+
+Als je operations- of financiële team zoekt naar een betrouwbaar spreadsheetmodel voor een van de volgende voorraadknelpunten, is deze toolkit er klaar voor:
+
+- **Voorraadprognose piekseizoen Q4 / BFCM:** *Hoe bereken ik exacte hoeveelheden voor overzeese containerorders in juli/augustus wanneer ik Meta- en Google-advertentiebudgetten opschaal voor Black Friday / Cyber Monday?*
+- **Nabestellen Amazon FBA en 3PL-bufferbeheer:** *Hoe coördineer ik voorraadtransfers tussen een overzeese fabriek, een binnenlands 3PL-stagingmagazijn en Amazon FBA-inbound-fulfillmentcentra zonder voorraadtekorten of FBA-toeslagen voor verouderde voorraad?*
+- **PO-prioritering bij kapitaalbeperkingen (werkkapitaalcrisis):** *Wanneer ons driemaandelijkse Open-to-Buy (OTB)-inkoopbudget is begrensd tot $150.000, welke specifieke SKUs moeten vandaag worden besteld om omzetverlies te voorkomen, en welke PO's kunnen veilig worden uitgesteld?*
+- **Schok in levertijden leveranciers en planning Chinees Nieuwjaar (CNY):** *Wanneer overzeese fabrieken meer dan 30 dagen sluiten tijdens het Chinese Nieuwjaar of transittijden voor zeevracht verdubbelen, hoe herbereken ik dan direct veiligheidsvoorraad en bestelpunten voor 500+ SKUs?*
+- **Aanpassingen lanceersnelheid nieuwe producten:** *Wanneer een nieuw gelanceerde Hero-SKU 3× sneller verkoopt dan initiële prognoses, hoeveel brugvoorraad per luchtvracht moeten we dan bestellen om het gat te dichten voordat de volgende zeezending aankomt?*
+
+---
+
+## Oude voorraadtrackers vs. dit vraagadaptieve nabestelmodel
+
+| Dimensie van voorraadplanning | Statische oude spreadsheets (zonder deze tool) | Vraagadaptieve Excel-voorraadtoolkit (met deze tool) |
+| :--- | :--- | :--- |
+| **Inkooptriggerlogica (risico op voorraadtekort)** | Nabestellen uitsluitend op basis van huidige op-voorraad magazijneenheden, waarbij uitputting tijdens transit en open in-transit PO's worden genegeerd. | Evalueert **netto voorraadpositie vs. vraag tijdens de levertijd** en triggert PO-waarschuwingen voordat voorraad onder de veiligheidsdrempel zakt. |
+| **Beperkingen levertijd leveranciers en MOQ** | Toepassen van een generieke buffer van 30 dagen op alle leveranciers, waarbij levertijden voor zeevracht van 90 dagen en fabrieks-MOQ's worden genegeerd. | Kent **SKU-specifieke levertijden en MOQ's** toe en begrenst voorgestelde PO-hoeveelheden automatisch tot geldige leveranciersbeperkingen. |
+| **Gevoeligheid verkoopsnelheid en trend** | Vertrouwen op vlakke gemiddelden over 90 dagen of 12 maanden die niet reageren wanneer betaalde advertenties of seizoenstrends verkopen versnellen. | Gebruikt **dynamische snelheidsgewichting over 30/90 dagen** en verhoogt nabestelhoeveelheden automatisch wanneer vraag op korte termijn piekt. |
+| **Zichtbaarheid werkkapitaal en kasstroom** | Voorraadplanners genereren nabestellijsten in eenheden geïsoleerd, wat financiën dwingt kasimpact handmatig te berekenen in een apart blad. | Ingebouwde **kasblootstellingswaardering (`PO Units × Unit COGS`)** toont exacte werkkapitaalverplichtingen direct op het dashboard. |
+| **Afstemming met promoties en advertenties** | Marketing lanceert een flashsale met 30% korting of verdubbelt advertentiebudgetten zonder zicht op de toeleveringsketen, waardoor 60 dagen voorraad in één weekend verdampt. | Verwerkt **promotionele vraagmultiplicatoren**, zodat planners voorraaddekking kunnen stresstesten vóór marketingcampagnes. |
+| **Wekelijkse inkoopwerkstroom** | Analisten besteden wekelijks meer dan 4 uur aan het repareren van kapotte `VLOOKUP`-formules, het herbouwen van draaitabellen en het handmatig markeren van rijen met lage voorraad. | Levert een geautomatiseerde, kleurgecodeerde **geprioriteerde PO-actielijst (`ORDER NOW` vs. `HEALTHY`)** die klaar is voor directe generatie van leveranciers-PO's. |
+
+---
+
+## Voor wie dit is: doelfuncties in de toeleveringsketen en e-commercegebruiksscenario's
+
+Gebouwd voor operators die fysieke voorraad beheren en een rigoureuze, transparante planningsmotor nodig hebben tussen ruwe ERP/Shopify-exporten en dure enterprise-SaaS-platformen:
+
+- **DTC-e-commerceoprichters en Shopify-/WooCommerce-handelaars:** gebruik dit als een **lichte Shopify-voorraadaanvul- en nabestelcalculator** om advertentieverspilling door uitverkochte artikelen te voorkomen, 3PL-voorraadniveaus te sturen en nabestellingen bij overzeese fabrieken te plannen zonder $500–$2.000/maand te betalen voor SaaS-forecastapps.
+- **Amazon FBA-verkopers en marketplace-aggregators:** gebruik dit als een **spreadsheet voor nabestellen van Amazon FBA en 3PL-bufferplanning** om productielevertijden van leveranciers, vensters voor zee-/luchtvracht en timing van FBA-inbound-zendingen in balans te brengen om je IPI (Inventory Performance Index)-score te beschermen.
+- **Voorraadplanners, vraagplanners en supply chain-analisten:** gebruik dit als een **gestandaardiseerd Excel-sjabloon voor bestelpunt (ROP) en veiligheidsvoorraad** om fragiele, foutgevoelige interne spreadsheets te vervangen door een auditeerbaar nabestelmodel.
+- **Operations managers en inkoop-/procurementkopers:** gebruik dit als een **geautomatiseerde inkooporder (PO)-generator en MOQ-calculator voor leveranciers** om wekelijkse voorraadtellingen in minuten om te zetten in exacte, leveranciersklare bestelhoeveelheden.
+- **E-commerce-CFO's, financiële controllers en voorraadboekhouders:** gebruik dit als een **model voor kasstroomprognoses van werkkapitaal en Open-to-Buy (OTB)** om inkoopaanvragen te auditen, overbestellen op C-tier-SKUs te voorkomen en voorraadrotatieverhoudingen te optimaliseren.
+
+*Opmerking: dit werkboek is **geen** live barcodescannend Warehouse Management System (WMS), geen geautomatiseerd EDI-orderrouteringsplatform en geen volledig wettelijk ERP. Het is de **tactische laag voor vraagplanning en inkoopbeslissingen** die je vertelt **wat je moet bestellen, hoeveel je moet bestellen, wanneer je moet bestellen en hoeveel kas het kost.***
+
+---
+
+## Over Theseus Workshop
+
+Ik bouw lichtgewicht, transparante Excel- en browsergebaseerde beslissingsondersteunende systemen voor operationele knelpunten waar er simpelweg te veel onderling verbonden variabelen zijn om mentaal te volgen—maar waar zware enterprise-software onnodige kosten en complexiteit creëert.
+
+In plaats van nog een rommelige ijdelheidsdashboard te bouwen, is elke toolkit ontworpen rond één praktische vraag:
+
+> **„Welke exacte operationele en financiële variabelen moeten op één plaats samenkomen zodat de volgende inkoop- of kapitaalbeslissing wiskundig evident wordt?”**
+
+Deze **vraagadaptieve toolkit voor voorraadplanning en inkoopbeslissingen** verenigt rollende vraagprognoses, beperkingen van leverancierslevertijden, veiligheidsvoorraadwiskunde en werkkapitaalblootstelling in een zelfstandig raamwerk dat elk e-commerce- of toeleveringsketenteam kan auditen, aanpassen en voor altijd bezitten.
+
+---
+*Trefwoorden: Excel-sjabloon voor voorraadplanning, bestelpunt (ROP)-calculatorspreadsheet, veiligheidsvoorraadformule Excel, nabestelmodel voor e-commercevoorraad, Shopify-nabestelcalculator, Amazon FBA-voorraadtracker, supply chain-inkooporder (PO)-planner, Open-to-Buy (OTB)-werkkapitaalspreadsheet.*
 
 ---
 
