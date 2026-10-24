@@ -19,7 +19,7 @@
 Essayez la version HTML cloud instantanément, sans installation, ou téléchargez le tableur entièrement déverrouillé pour vos flux opérationnels hors ligne.
 
 > 🌐 **Essayer l'application web**
-> [Ouvrir l'application web gratuite et interactive de planification des stocks (démo HTML en direct) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
+> [Ouvrir l'application web gratuite et interactive de planification des stocks (démo HTML en direct) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
 >
 > 📥 **Obtenir le tableur**
 > [Télécharger le modèle Excel entièrement déverrouillé de gestion des stocks ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
