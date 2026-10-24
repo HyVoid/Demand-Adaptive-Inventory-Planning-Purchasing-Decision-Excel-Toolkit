@@ -1,121 +1,155 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Demand-Adaptive Inventory Planning & Purchasing Decision Excel Template
+# Inventory Planning Excel Template & Reorder Point (ROP) Calculator for Ecommerce, Shopify & Amazon FBA
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/21d38b78-5718-41fc-b83c-fd19e3ac99ee" />
 
-<div align="left">
-  <strong>An automated inventory planning and purchasing decision Excel template designed for DTC brands, ecommerce sellers, and supply chain managers. Free to test in your browser or download as a customizable spreadsheet to prevent stockouts, manage supplier lead times, and optimize working capital.</strong>
-</div>
-
-<br>
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Inventory%20Planning%20%26%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Inventory%20Replenishment%20%26%20ROP%20Model-orange)
+
+**An automated Inventory Planning Excel Template, Reorder Point (ROP) Calculator, and Safety Stock Spreadsheet built for DTC ecommerce brands, Shopify merchants, Amazon FBA sellers, and supply chain managers. Combine 30/90-day rolling sales velocity forecasting, supplier lead-time buffers, MOQ constraints, and Open-to-Buy (OTB) working capital exposure in one decision-support model—available free in your browser or as an unlocked Excel workbook.**
+
+**No signup. No installation. Free to test in your browser.**
+
+Test the cloud-based interactive web application instantly with zero setup, or download the fully unlocked Excel spreadsheet template for your weekly offline restock workflows—backed by a 30-day, no-questions-asked money-back guarantee.
+
+> 🌐 **Try the Web Calculator:** [Open the Free Interactive Inventory Replenishment & Reorder Point Web App (Live Demo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)  
+> 📥 **Get the Full Excel Model:** [Download the Fully Unlocked Inventory Planning, Safety Stock & PO Decision Excel Template ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
+> ⚙️ **Replenishment Math:** [Jump to The Business Logic & Inventory Methodology](#the-business-logic--methodology)
 
 ---
 
-**Automate your replenishment cycle by combining historical sales forecasting, supplier lead-time risk assessment, reorder point calculation, and cash flow exposure into one lightweight decision-support software tool.**
+## What It Helps You Track: Ecommerce Inventory Pain-Point to Solution Mapping
 
-Try the cloud-based HTML version instantly with no installation, or download the fully unlocked spreadsheet for your offline operational workflows.
+Static inventory spreadsheets fail modern Direct-to-Consumer (DTC), Amazon FBA, and omnichannel wholesale brands because demand velocity and overseas freight lead times are highly volatile. Paid social scaling on Meta/TikTok, BFCM flash sales, or port congestion can trigger severe stockouts or trap hundreds of thousands of dollars in dead stock.
 
-> 🌐 **Try the Web App**
-> [Open the Free Interactive Inventory Planning Web App (HTML Live Demo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
->
-> 📥 **Get the Spreadsheet**
-> [Download the Fully Unlocked Excel Inventory Management Template ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+Instead of manually cross-referencing fragmented 3PL warehouse reports, in-transit Purchase Orders (POs), and Shopify/Amazon sales exports, this **inventory replenishment spreadsheet** tracks and resolves six critical supply chain blind spots:
 
----
-
-## Overcome Ecommerce Inventory Pain Points with Automated Solutions
-
-Instead of manually auditing fragmented warehouse reports, supplier lead times, and multichannel sales history, this toolkit centralizes your supply chain visibility.
-
-Static inventory trackers fail modern Direct-to-Consumer (DTC) and omnichannel businesses because demand is volatile. Paid advertising on Meta or TikTok, seasonal promos, and viral marketing can deplete stock in days. This dynamic environment creates two costly extremes:
-
-- **Pain Point: Unexpected Stockouts (Underestimating Demand)**
-  *Solution:* Uses rolling 30-day/90-day demand forecasting to instantly adjust your **Reorder Point (ROP)**, ensuring you never waste Customer Acquisition Cost (CAC) on out-of-stock items.
-- **Pain Point: Trapped Working Capital (Overestimating Demand)**
-  *Solution:* Employs precise **Safety Stock calculations** to prevent excess inventory accumulation, freeing up cash flow and accelerating inventory turnover rates.
-- **Pain Point: Misaligned Replenishment Cycles**
-  *Solution:* Adapts to both **long lead-time supply chains** (overseas freight) and **short lead-time logistics** (domestic 3PL). It evaluates every SKU independently based on its unique Minimum Order Quantity (MOQ) and lead-time constraints.
-
-### Core Tracking Capabilities:
-*   **Current Inventory Health:** Visualize on-hand stock vs. projected depletion rates.
-*   **Actionable Purchasing Alerts:** Identifies which SKUs require a Purchase Order (PO) today versus those safely within optimal levels.
-*   **Lead-Time Demand Projection:** Calculates exact unit consumption during supplier transit windows.
-*   **Cash Exposure Analysis:** Maps future purchasing commitments against available working capital.
+| Target Tracking Metric / Pain Point | The Common Ecommerce Inventory Blind Spot | How This Replenishment Model Solves & Tracks It |
+| :--- | :--- | :--- |
+| **Dynamic Reorder Point (ROP) & Stockout Prevention** | Relying on gut-feeling restock alerts or static 90-day averages, causing stockouts when ad spend scales and wasting Customer Acquisition Cost (CAC). | Tracks **rolling 30-day vs. 90-day weighted sales velocity** to dynamically adjust SKU-level **Reorder Points (ROP)** before inventory runs dry. |
+| **Safety Stock & Days of Inventory On Hand (DOH)** | Over-ordering slow-moving SKUs out of fear, trapping working capital in 3PL storage fees and dragging down inventory turnover. | Calculates statistically buffered **Safety Stock units** and **Days of Inventory On Hand (DOH / Weeks of Supply)** tailored to each SKU's demand volatility. |
+| **Net Available Inventory (On-Hand + In-Transit POs)** | Ordering duplicate inventory because open, unreceived Purchase Orders (On-Order / In-Transit ocean or air freight) aren't netted against warehouse stock. | Tracks **Net Inventory Position (`On-Hand + In-Transit POs - Committed Stock`)** against projected lead-time depletion windows. |
+| **Supplier Lead-Time & MOQ Constraint Alignment** | Applying a blanket 30-day reorder buffer across both 90-day overseas ocean freight factories and 7-day domestic 3PL replenishment vendors. | Evaluates every SKU independently using **vendor-specific transit lead times**, **Minimum Order Quantities (MOQs)**, and case-pack rounding rules. |
+| **Open-to-Buy (OTB) Cash Flow & Working Capital Exposure** | Submitting Purchase Orders based purely on unit quantities without knowing the exact cash commitment required to fund the restock run. | Multiplies suggested PO quantities by **Unit Landed COGS** to output real-time **Cash Flow Exposure ($)** and prioritize POs when capital is tight. |
+| **Actionable Purchase Order (PO) Priority Triage** | Auditing 500+ SKUs line-by-line every Monday morning to figure out which suppliers need an immediate PO vs. which SKUs are safely stocked. | Generates an automated **SKU Action Status (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** with exact recommended PO order quantities. |
 
 ---
 
-## Quick Start Tutorial: How to Automate Your Restock Decisions Today
+## Quick Start Tutorial: How to Automate Your Restock & Reorder Point Decisions
 
-Transitioning from raw sales data to precise purchasing recommendations takes minutes. Follow these functional steps to set up your restock automation.
+Transitioning from raw omnichannel sales exports to an audit-ready **Purchase Order (PO) action list** takes less than 5 minutes. Follow this 4-step replenishment workflow:
 
-### Step 1: Configure SKU Master Data & Supply Chain Parameters
-Navigate to the `Setup_Config` tab. Input your baseline inventory metrics: SKU codes, supplier names, transit lead times, MOQs, target service levels, and unit COGS.
-*Action:* Establish your baseline constraints to let the algorithm customize purchasing thresholds.
+### Step 1: Configure SKU Master Data, Lead Times & Vendor MOQs
+Navigate to the `Setup_Config` control sheet and establish your supply chain parameters for each SKU:
+- **SKU Identifiers & Vendor Mapping:** SKU codes, product names, and primary supplier assignments.
+- **Replenishment Constraints:** Production + freight **Lead Time (days)**, **Minimum Order Quantity (MOQ)**, target service-level safety buffer, and **Unit Landed COGS ($)**.
 
-### Step 2: Import Omnichannel Historical Sales Data
-Export your raw sales data from Shopify, Amazon Seller Central, or your ERP, and paste it directly into the `Sales_Import` sheet. Update current warehouse counts and in-transit POs.
-*Action:* Feed the forecasting engine without any manual formula adjustments or data restructuring.
-
-### Step 3: Generate Automated Purchasing Recommendations
-Open the Executive Dashboard. The calculation engine will automatically run the safety stock formulas and output actionable metrics: inventory at risk, suggested PO quantities, and capital required.
-*Action:* Review the dynamically generated "ORDER NOW" alerts to make immediate procurement decisions.
-
-### Step 4: Download the Template for Continuous Weekly Planning
-The browser demo is perfect for a single trial run. For ongoing weekly inventory reconciliation, persistent data saving, and team collaboration, transition to the local file.
-*CTA:* **[Download the Excel Inventory Template](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** to securely manage your internal supply chain data and repeat this workflow every planning cycle.
+*Action:* Test how lead-time and MOQ changes impact reorder triggers right now in the [Free Interactive Inventory Planning Web App](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/).
 
 ---
 
-## Real-World Scenarios: When to Use This Inventory Control Spreadsheet
+### Step 2: Import Shopify, Amazon FBA or ERP Historical Sales & Stock Counts
+Export your raw unit sales history and current warehouse balances from **Shopify, Amazon Seller Central, Cin7, NetSuite, or your 3PL portal**, and paste them directly into the `Sales_Import` and inventory input tables:
+- Input **Current On-Hand Warehouse Stock** and **Open In-Transit PO Quantities**.
+- Include recent 30-day and 90-day historical unit sales (plus optional promotional demand multipliers).
 
-This toolkit is purpose-built for critical operational bottlenecks where timing and capital intersect:
-
-*   **Q4 Peak Season Preparation:** When scaling up Meta ads for Black Friday/Cyber Monday (BFCM) and you need to mathematically justify massive overseas container orders.
-*   **New Product Launches:** When initial sales velocity outpaces historical averages and you must rapidly calculate expedited air-freight quantities.
-*   **Cash Flow Constraints:** When finance limits the quarterly procurement budget and you must prioritize POs by strict operational urgency rather than gut feeling.
-*   **Supplier Lead-Time Delays:** When a core manufacturer extends lead times by 20 days and you need to instantly recalculate the safety stock for 500 SKUs.
+*Zero VLOOKUP maintenance or formula rewriting required—the ingestion layer normalizes raw data automatically.*
 
 ---
 
-## Who This Is For: Target Roles & Specific Use Cases
-
-Designed for professionals who manage physical products and rely on data-driven procurement, this tool directly upgrades your existing spreadsheet workflows by targeting specific operational roles:
-
-*   **Ecommerce Founders & Shopify Merchants:** Require a lightweight *Shopify restock calculator* to manage 3PL fulfillment without expensive enterprise software.
-*   **Amazon FBA Sellers:** Need an *FBA inventory tracker* to monitor external warehouse stock limits against upcoming Amazon inbound shipment requirements.
-*   **Inventory Planners & Supply Chain Analysts:** Searching for an *automated reorder point Excel template* to standardize departmental purchasing logic.
-*   **Operations & Procurement Managers:** Looking for a *supplier lead-time management tool* to align vendor MOQs with internal storage capacities.
-*   **Finance Managers & Controllers:** Need a *working capital allocation model* to veto oversized inventory purchases before cash is deployed.
-
-*(Note: This provides a robust analytical layer for operational data; it is not intended to replace full-scale ERP, MRP, or enterprise inventory management platforms).*
+### Step 3: Review Automated Safety Stock, ROP & Suggested PO Quantities
+Switch to the **Executive Replenishment Dashboard**. The calculation engine immediately executes the inventory formulas across your entire catalog to output:
+- **Weighted Daily Sales Velocity** (units/day) & **Days of Inventory Remaining (DOH)**
+- **Lead-Time Demand Projection** & **Dynamic Reorder Point (ROP)**
+- **Prioritized "ORDER NOW" Alerts** with MOQ-adjusted **Suggested PO Quantities**
+- **Total Working Capital Required ($)** to fund the recommended purchasing batch
 
 ---
 
-## Deep Dive: Overcoming Legacy Spreadsheet Limitations
+### Step 4: Download the Unlocked Excel Template for Weekly Inventory Planning
+While the browser live demo is ideal for single-session testing and logic verification, real supply chain operations require persistent weekly snapshots, custom SKU expansions, and internal financial auditing.
 
-| Common Inventory Management Pain Point | Legacy Spreadsheet Methods | Demand-Adaptive Excel Toolkit Solution |
-|----------------------------------------|---------------------------|----------------------------------------|
-| **Purchasing Timing (Stockout Risk)** | Auditing based solely on current on-hand warehouse inventory. | Calculates **Projected Lead-Time Demand**, ensuring POs are placed considering transit consumption. |
-| **Supplier Variability** | Applying a blanket 30-day buffer to domestic and overseas vendors alike. | Assigns **SKU-specific Lead Times**, optimizing reorder triggers for local vs. international freight. |
-| **Demand Forecasting Accuracy** | Relying on static 90-day historical averages that ignore recent spikes. | Uses a **Dynamic Trend Factor**, amplifying reorder quantities when recent sales velocity accelerates. |
-| **Working Capital Efficiency** | Purchasing recommendations are disconnected from financial models. | Integrates **Cash Flow Impact**, displaying the exact capital commitment required before approving a PO. |
-| **Marketing Alignment** | Unplanned marketing promotions rapidly deplete available stock. | Employs **Promotional Multipliers** to artificially boost the demand forecast prior to ad spend scaling. |
-| **Operational Reporting Workflow** | Supply chain teams waste hours manually filtering pivot tables and VLOOKUPs. | Surfaces a prioritized **Automated PO Action List** directly on the executive dashboard. |
+> 💡 **Ready to automate your weekly restock planning without paying $1,000+/month for SaaS inventory software?**  
+> Stop guessing reorder quantities or rebuilding broken spreadsheets every Monday.  
+> 👉 **[Download the Fully Unlocked Inventory Planning & Purchasing Decision Excel Template](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** to plug in your own SKU catalog, save historical weekly procurement logs, customize forecasting weights, and share clean PO approval sheets with your finance team.
 
 ---
 
-## About
+## The Business Logic & Methodology
 
-I build lightweight operational tools for situations where there are simply too many moving parts to keep in your head.
+Most standard Excel inventory templates fail in real ecommerce operations because they treat **demand velocity as static** and **supply chains as instantaneous**. If a spreadsheet simply divides 90-day sales by 90, a viral TikTok campaign or Q4 seasonal ramp will cause an immediate stockout before an overseas container ever leaves the port.
 
-Rather than creating another dashboard full of metrics, I focus on one practical question:
+To solve the mathematical trade-off between **Service Level (Stockout Risk)** and **Working Capital Efficiency (Overstock Risk)**, this toolkit implements a **4-stage quantitative replenishment methodology**:
 
-> **What information needs to appear together so the next operational decision can be made confidently?**
+1. **Demand-Adaptive Velocity Weighting (Short-Term Trend vs. Long-Term Baseline):**  
+   Relying solely on a 90-day average lags behind growth trends; relying solely on a 7-day or 30-day window overreacts to temporary noise. This model computes a **Blended Daily Demand Velocity ($D_{\text{adaptive}}$)** by comparing short-term sales acceleration ($V_{30}$) against the historical baseline ($V_{90}$), coupled with an optional **Promotional Multiplier ($M_{\text{promo}}$)**:
+   $$D_{\text{adaptive}} = \left( w_1 \cdot V_{30} + w_2 \cdot V_{90} \right) \times M_{\text{promo}}$$
+   When recent sales velocity accelerates above the historical mean, the model dynamically scales up forward demand projections to protect high-velocity winners from stocking out.
+2. **Lead-Time Depletion & Dynamic Reorder Point (ROP) Modeling:**  
+   An order placed today will not arrive until the supplier completes manufacturing and freight transit ($L$ days). During that window, your existing stock continues to deplete. The engine calculates **Lead-Time Demand ($D_{\text{LT}} = D_{\text{adaptive}} \times L$)** and adds a dynamic **Safety Stock Buffer ($SS$)** calibrated to lead-time risk and demand variance:
+   $$\text{Reorder Point (ROP)} = \left( D_{\text{adaptive}} \times \text{Lead Time}_{\text{days}} \right) + \text{Safety Stock}$$
+   Whenever a SKU's **Net Inventory Position ($\text{On-Hand} + \text{On-Order} - \text{Committed}$)** drops at or below $\text{ROP}$, the state engine flips the SKU status to `ORDER NOW`.
+3. **MOQ-Constrained Order Quantity Optimization:**  
+   Calculating a raw deficit of 142 units is useless if your contract manufacturer enforces a **Minimum Order Quantity (MOQ)** of 500 units. The purchasing algorithm evaluates the net replenishment gap required to cover the target coverage cycle ($C_{\text{target}}$ days) plus lead time, and resolves the final **Recommended PO Quantity ($Q_{\text{PO}}$)** via constraint bounding:
+   $$Q_{\text{PO}} = \max \left( \text{MOQ}, \; \text{Target Stock Level} - \text{Net Inventory Position} \right)$$
+4. **Working Capital & Cash Exposure Valuation (Open-to-Buy Integration):**  
+   Supply chain planners think in *units*, while CFOs and founders think in *cash flow*. Every recommended purchase order is multiplied by its `Unit_COGS` ($C_i \times Q_{\text{PO}, i}$) and aggregated by urgency tier. This directly links physical inventory replenishment to **Open-to-Buy (OTB) cash flow management**, enabling teams to see exact capital exposure before cutting vendor deposits.
 
-Inventory Planning Control Tower is one example of that approach. It combines demand forecasting, supplier constraints, inventory risk, and cash exposure into a reusable decision-support framework that organizations can operate and maintain themselves.
+---
+
+## Real-World Ecommerce & Supply Chain Scenarios This Solves
+
+If your operations or finance team is searching for a reliable spreadsheet model to handle any of the following inventory bottlenecks, this toolkit is pre-built for the job:
+
+- **Q4 / BFCM Peak Season Inventory Forecasting:** *How do I calculate exact overseas container order quantities in July/August when scaling Meta and Google ad spend for Black Friday / Cyber Monday?*
+- **Amazon FBA Restock & 3PL Buffer Management:** *How do I coordinate inventory transfers between an overseas factory, a domestic 3PL staging warehouse, and Amazon FBA inbound fulfillment centers without running out of stock or triggering FBA aged-inventory surcharges?*
+- **Cash-Constrained PO Prioritization (Working Capital Crunch):** *When our quarterly Open-to-Buy (OTB) procurement budget is capped at $150,000, which specific SKUs must be ordered today to prevent revenue loss, and which POs can be safely deferred?*
+- **Supplier Lead-Time Shock & Chinese New Year (CNY) Planning:** *When overseas factories shut down for 30+ days during Chinese New Year or ocean freight transit times double, how do I instantly recalculate Safety Stock and Reorder Points across 500+ SKUs?*
+- **New Product Launch Velocity Adjustments:** *When a newly launched Hero SKU sells 3x faster than initial projections, how much air-freight bridge inventory do we need to order to cover the gap before the next ocean shipment arrives?*
+
+---
+
+## Legacy Inventory Trackers vs. This Demand-Adaptive Replenishment Model
+
+| Inventory Planning Dimension | Static Legacy Spreadsheets (Without This Tool) | Demand-Adaptive Inventory Excel Toolkit (With This Tool) |
+| :--- | :--- | :--- |
+| **Purchasing Trigger Logic (Stockout Risk)** | Reordering based only on current on-hand warehouse units, ignoring stock depletion during transit and open In-Transit POs. | Evaluates **Net Inventory Position vs. Lead-Time Demand**, triggering PO alerts before stock falls below the safety threshold. |
+| **Supplier Lead-Time & MOQ Constraints** | Applying a generic 30-day buffer to all vendors, ignoring 90-day ocean freight lead times and factory Minimum Order Quantities (MOQs). | Assigns **SKU-specific Lead Times and MOQs**, automatically bounding suggested PO quantities to valid vendor constraints. |
+| **Sales Velocity & Trend Sensitivity** | Relying on flat 90-day or 12-month historical averages that fail to react when paid ads or seasonal trends accelerate sales. | Uses **30/90-Day Dynamic Velocity Weighting**, automatically boosting reorder quantities when short-term demand spikes. |
+| **Working Capital & Cash Flow Visibility** | Inventory planners generate unit restock lists in isolation, forcing Finance to manually calculate cash impact in a separate sheet. | Built-in **Cash Exposure Valuation (`PO Units × Unit COGS`)** displays exact working capital commitments directly on the dashboard. |
+| **Promotional & Ad-Scaling Alignment** | Marketing launches a 30%-off flash sale or doubles ad spend without supply chain visibility, wiping out 60 days of stock in a weekend. | Incorporates **Promotional Demand Multipliers**, allowing planners to stress-test inventory coverage prior to marketing campaigns. |
+| **Weekly Procurement Workflow** | Analysts spend 4+ hours every week fixing broken `VLOOKUP` formulas, rebuilding pivot tables, and manually highlighting low-stock rows. | Outputs an automated, color-coded **Prioritized PO Action List (`ORDER NOW` vs. `HEALTHY`)** ready for immediate vendor PO generation. |
+
+---
+
+## Who This Is For: Target Supply Chain Roles & Ecommerce Use Cases
+
+Built for operators who manage physical inventory and need a rigorous, transparent planning engine between raw ERP/Shopify exports and expensive enterprise SaaS platforms:
+
+- **DTC Ecommerce Founders & Shopify / WooCommerce Merchants:** Use this as a **lightweight Shopify inventory replenishment and restock calculator** to prevent out-of-stock ad waste, manage 3PL stock levels, and plan overseas factory reorders without paying $500–$2,000/month for SaaS forecasting apps.
+- **Amazon FBA Sellers & Marketplace Aggregators:** Use this as an **Amazon FBA restock and 3PL buffer planning spreadsheet** to balance supplier production lead times, ocean/air freight windows, and FBA inbound shipment timing to protect your IPI (Inventory Performance Index) score.
+- **Inventory Planners, Demand Planners & Supply Chain Analysts:** Use this as a **standardized Reorder Point (ROP) and Safety Stock Excel template** to replace fragile, error-prone internal spreadsheets with an auditable replenishment model.
+- **Operations Managers & Purchasing / Procurement Buyers:** Use this as an **automated Purchase Order (PO) generation and vendor MOQ calculator** to turn weekly stock counts into exact, supplier-ready order quantities in minutes.
+- **Ecommerce CFOs, Finance Controllers & Inventory Accountants:** Use this as a **working capital and Open-to-Buy (OTB) cash flow forecasting model** to audit purchasing requests, prevent overbuying on C-tier SKUs, and optimize inventory turnover ratios.
+
+*Note: This workbook is **not** a live barcode-scanning Warehouse Management System (WMS), an automated EDI order-routing platform, or a full statutory ERP. It is the **tactical demand-planning and purchasing decision layer** that tells you **what to order, how much to order, when to order, and how much cash it will cost.***
+
+---
+
+## About Theseus Workshop
+
+I build lightweight, transparent Excel and browser-based decision-support systems for operational bottlenecks where there are too many interacting variables to track mentally—but where heavyweight enterprise software creates unnecessary cost and complexity.
+
+Rather than building another cluttered vanity dashboard, every toolkit is engineered around one practical question:
+
+> **"What exact operational and financial variables need to sit in one place so the next purchasing or capital decision becomes mathematically obvious?"**
+
+This **Demand-Adaptive Inventory Planning & Purchasing Decision Toolkit** unites rolling demand forecasting, supplier lead-time constraints, safety stock math, and working capital exposure into a self-contained framework that any ecommerce or supply chain team can audit, customize, and own forever.
+
+---
+*Keywords: Inventory Planning Excel Template, Reorder Point (ROP) Calculator Spreadsheet, Safety Stock Formula Excel, Ecommerce Inventory Replenishment Model, Shopify Restock Calculator, Amazon FBA Inventory Tracker, Supply Chain Purchase Order (PO) Planner, Open-to-Buy (OTB) Working Capital Spreadsheet.*
 
 ---
 
