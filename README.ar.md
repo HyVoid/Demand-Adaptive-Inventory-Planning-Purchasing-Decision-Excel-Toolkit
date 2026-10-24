@@ -19,7 +19,7 @@
 جرّب نسخة HTML السحابية فوراً دون أي تثبيت، أو نزّل جدول البيانات مفتوحاً بالكامل لسير عملك التشغيلي دون اتصال بالإنترنت.
 
 > 🌐 **جرّب تطبيق الويب**
-> [افتح تطبيق الويب التفاعلي المجاني لتخطيط المخزون (عرض توضيحي مباشر) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
+> [افتح تطبيق الويب التفاعلي المجاني لتخطيط المخزون (عرض توضيحي مباشر) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
 >
 > 📥 **احصل على جدول البيانات**
 > [نزّل قالب Excel غير المقفل بالكامل لإدارة المخزون ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
