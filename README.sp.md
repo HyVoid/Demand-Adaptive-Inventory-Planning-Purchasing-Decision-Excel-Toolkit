@@ -1,121 +1,155 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Plantilla Excel de planificación de inventario y decisión de compra adaptativa a la demanda
+# Plantilla Excel de planificación de inventario y calculadora de punto de reorden (ROP) para e-commerce, Shopify y Amazon FBA
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/ab946235-54c1-4cb6-8957-f3fc601b803a" />
 
-<div align="left">
-  <strong>Una plantilla Excel automatizada de planificación de inventario y decisión de compra, diseñada para marcas DTC, vendedores de e-commerce y gestores de cadena de suministro. Gratis para probar en tu navegador o descargar como hoja de cálculo personalizable para evitar desabastecimientos, gestionar los plazos de entrega de los proveedores y optimizar el capital de trabajo.</strong>
-</div>
-
-<br>
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Inventory%20Planning%20%26%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Inventory%20Replenishment%20%26%20ROP%20Model-orange)
+
+**Una plantilla Excel automatizada de planificación de inventario, una calculadora de punto de reorden (ROP) y una hoja de cálculo de stock de seguridad, diseñada para marcas DTC de e-commerce, comerciantes de Shopify, vendedores de Amazon FBA y gestores de cadena de suministro. Combina previsiones rodantes de velocidad de ventas a 30/90 días, colchones de plazo de entrega de proveedores, restricciones de cantidad mínima de pedido (MOQ) y la exposición de capital de trabajo de la compra abierta (OTB) en un solo modelo de apoyo a la decisión—disponible gratis en tu navegador o como libro de trabajo Excel desbloqueado.**
+
+**Sin registro. Sin instalación. Gratis para probar en tu navegador.**
+
+Prueba al instante la aplicación web interactiva basada en la nube sin ninguna configuración, o descarga la plantilla de hoja de cálculo Excel completamente desbloqueada para tus flujos de reposición semanales sin conexión—respaldada por una garantía de devolución de dinero de 30 días sin preguntas.
+
+> 🌐 **Prueba la calculadora web:** [Abrir la aplicación web interactiva gratuita de reposición de inventario y punto de reorden (demo en vivo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)  
+> 📥 **Consigue el modelo Excel completo:** [Descargar la plantilla Excel completamente desbloqueada de planificación de inventario, stock de seguridad y decisión de órdenes de compra ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
+> ⚙️ **Matemáticas de reposición:** [Ir a la lógica de negocio y la metodología de inventario](#the-business-logic--methodology)
 
 ---
 
-**Automatiza tu ciclo de reposición combinando previsión de ventas históricas, evaluación del riesgo de plazos de entrega de proveedores, cálculo del punto de reorden y exposición de tesorería en una herramienta ligera de apoyo a la decisión.**
+## Qué ayuda a rastrear: mapeo de puntos de dolor del inventario e-commerce a soluciones
 
-Prueba la versión HTML en la nube al instante, sin instalación, o descarga la hoja de cálculo completamente desbloqueada para tus flujos operativos sin conexión.
+Las hojas de cálculo de inventario estáticas fracasan ante las marcas modernas de venta directa al consumidor (DTC), Amazon FBA y mayoristas omnicanal, porque la velocidad de la demanda y los plazos de entrega del flete internacional son muy volátiles. El escalado de social de pago en Meta/TikTok, las ventas flash de BFCM o la congestión portuaria pueden provocar roturas de stock graves o atrapar cientos de miles de dólares en stock muerto.
 
-> 🌐 **Prueba la aplicación web**
-> [Abrir la aplicación web gratuita e interactiva de planificación de inventario (demo HTML en vivo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
->
-> 📥 **Obtén la hoja de cálculo**
-> [Descargar la plantilla Excel de gestión de inventario completamente desbloqueada ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+En lugar de cruzar manualmente informes fragmentados de almacenes 3PL, órdenes de compra (POs) en tránsito y exportaciones de ventas de Shopify/Amazon, esta **hoja de cálculo de reposición de inventario** rastrea y resuelve seis puntos ciegos críticos de la cadena de suministro:
 
----
-
-## Supera los puntos de dolor del inventario e-commerce con soluciones automatizadas
-
-En lugar de auditar manualmente informes de almacén fragmentados, plazos de entrega de proveedores e historiales de ventas multicanal, este kit centraliza tu visibilidad de la cadena de suministro.
-
-Los rastreadores de inventario estáticos fallan ante los negocios modernos de venta directa al consumidor (DTC) y omnicanal, porque la demanda es volátil. La publicidad pagada en Meta o TikTok, las promociones de temporada y el marketing viral pueden agotar el stock en días. Este entorno dinámico crea dos extremos costosos:
-
-- **Punto de dolor: desabastecimientos inesperados (subestimar la demanda)**
-  *Solución:* usa previsiones de demanda rodantes de 30/90 días para ajustar al instante tu **punto de reorden (ROP)**, garantizando que nunca desperdicies coste de adquisición de cliente (CAC) en artículos agotados.
-- **Punto de dolor: capital de trabajo inmovilizado (sobreestimar la demanda)**
-  *Solución:* emplea **cálculos de stock de seguridad** precisos para evitar la acumulación excesiva de inventario, liberar caja y acelerar la rotación de inventario.
-- **Punto de dolor: ciclos de reposición desalineados**
-  *Solución:* se adapta tanto a **cadenas de suministro de plazos largos** (flete marítimo) como a **logística de plazos cortos** (3PL nacional). Evalúa cada SKU de forma independiente según su cantidad mínima de pedido (MOQ) y sus restricciones de plazo.
-
-### Capacidades principales de seguimiento:
-*   **Salud actual del inventario:** visualiza el stock disponible frente a las tasas de agotamiento proyectadas.
-*   **Alertas de compra accionables:** identifica qué SKUs requieren una orden de compra (PO) hoy frente a los que están sanamente dentro de los niveles óptimos.
-*   **Proyección de la demanda durante el plazo de entrega:** calcula el consumo exacto en unidades durante las ventanas de tránsito de los proveedores.
-*   **Análisis de exposición de tesorería:** enfrenta los compromisos de compra futuros con el capital de trabajo disponible.
+| Métrica de seguimiento objetivo / punto de dolor | El punto ciego común del inventario e-commerce | Cómo este modelo de reposición lo resuelve y rastrea |
+| :--- | :--- | :--- |
+| **Punto de reorden (ROP) dinámico y prevención de desabastecimientos** | Confiar en alertas de reposición intuitivas o medias estáticas de 90 días, lo que causa desabastecimientos cuando el gasto publicitario escala y desperdicia el coste de adquisición de cliente (CAC). | Rastrea la **velocidad de ventas ponderada rodante de 30 días vs. 90 días** para ajustar dinámicamente los **puntos de reorden (ROP)** a nivel de SKU antes de que el inventario se agote. |
+| **Stock de seguridad y días de inventario disponible (DOH)** | Sobrepedir SKUs de rotación lenta por miedo, atrapando capital de trabajo en tasas de almacenamiento 3PL y lastrando la rotación de inventario. | Calcula **unidades de stock de seguridad** con amortiguación estadística y **días de inventario disponible (DOH / semanas de cobertura)** adaptados a la volatilidad de la demanda de cada SKU. |
+| **Inventario neto disponible (disponible + POs en tránsito)** | Pedir inventario duplicado porque las órdenes de compra abiertas no recibidas (en pedido / flete marítimo o aéreo en tránsito) no se netean contra el stock de almacén. | Rastrea la **posición de inventario neta (`On-Hand + In-Transit POs - Committed Stock`)** contra las ventanas de agotamiento previstas durante el plazo de entrega. |
+| **Alineación del plazo de entrega del proveedor y las restricciones de MOQ** | Aplicar un colchón de reposición general de 30 días tanto a fábricas de flete marítimo internacional de 90 días como a proveedores 3PL nacionales de 7 días. | Evalúa cada SKU de forma independiente usando **plazos de tránsito específicos por proveedor**, **cantidades mínimas de pedido (MOQs)** y reglas de redondeo por caja. |
+| **Flujo de caja de compra abierta (OTB) y exposición de capital de trabajo** | Enviar órdenes de compra basándose puramente en cantidades de unidades sin conocer el compromiso de caja exacto requerido para financiar la campaña de reposición. | Multiplica las cantidades de PO sugeridas por el **coste unitario de mercancía puesta en destino (COGS)** para generar en tiempo real la **exposición de flujo de caja ($)** y priorizar las POs cuando el capital es escaso. |
+| **Triaje de prioridad de órdenes de compra (PO) accionable** | Auditar más de 500 SKUs línea por línea cada lunes por la mañana para determinar qué proveedores necesitan una PO inmediata frente a qué SKUs están almacenados con seguridad. | Genera un **estado de acción de SKU automatizado (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** con las cantidades exactas de pedido PO recomendadas. |
 
 ---
 
-## Tutorial de inicio rápido: automatiza tus decisiones de reposición hoy mismo
+## Tutorial de inicio rápido: cómo automatizar tus decisiones de reposición y punto de reorden
 
-Pasar de datos de ventas brutos a recomendaciones de compra precisas lleva minutos. Sigue estos pasos funcionales para configurar tu automatización de reposición.
+Pasar de exportaciones de ventas omnicanal en bruto a una **lista de acciones de órdenes de compra (PO) lista para auditar** lleva menos de 5 minutos. Sigue este flujo de reposición de 4 pasos:
 
-### Paso 1: configura los datos maestros de SKU y los parámetros de la cadena de suministro
-Ve a la pestaña `Setup_Config`. Introduce tus métricas de inventario base: códigos SKU, nombres de proveedores, plazos de tránsito, MOQs, niveles de servicio objetivo y coste unitario.
-*Acción:* establece tus restricciones base para dejar que el algoritmo personalice los umbrales de compra.
+### Paso 1: configura los datos maestros de SKU, los plazos de entrega y las MOQ de los proveedores
+Navega a la hoja de control `Setup_Config` y establece tus parámetros de cadena de suministro para cada SKU:
+- **Identificadores de SKU y mapeo de proveedores:** códigos SKU, nombres de producto y asignaciones de proveedores principales.
+- **Restricciones de reposición:** **plazo de entrega (días)** de producción + flete, **cantidad mínima de pedido (MOQ)**, colchón de seguridad del nivel de servicio objetivo y **coste unitario de mercancía puesta en destino ($)**.
 
-### Paso 2: importa datos históricos de ventas omnicanal
-Exporta tus datos de ventas brutos desde Shopify, Amazon Seller Central o tu ERP, y pégalos directamente en la hoja `Sales_Import`. Actualiza los recuentos actuales de almacén y las órdenes de compra en tránsito.
-*Acción:* alimenta el motor de previsión sin ajustes manuales de fórmulas ni reestructuración de datos.
-
-### Paso 3: genera recomendaciones de compra automatizadas
-Abre el panel ejecutivo. El motor de cálculo ejecutará automáticamente las fórmulas de stock de seguridad y generará métricas accionables: inventario en riesgo, cantidades de orden de compra sugeridas y capital requerido.
-*Acción:* revisa las alertas «ORDER NOW» generadas dinámicamente para tomar decisiones de aprovisionamiento inmediatas.
-
-### Paso 4: descarga la plantilla para una planificación semanal continua
-La demo del navegador es perfecta para una única prueba. Para la conciliación semanal continua de inventario, el guardado persistente de datos y la colaboración en equipo, pasa al archivo local.
-*CTA:* **[descargar la plantilla Excel de gestión de inventario](#)** para gestionar de forma segura tus datos internos de cadena de suministro y repetir este flujo en cada ciclo de planificación.
+*Acción:* prueba ahora cómo los cambios de plazo de entrega y MOQ impactan los disparadores de reposición en la [aplicación web interactiva gratuita de planificación de inventario](https://hyvoid.github.io/inventory-planning-reorder-point-excel/).
 
 ---
 
-## Escenarios reales: cuándo usar esta hoja de cálculo de control de inventario
+### Paso 2: importa ventas históricas y recuentos de stock de Shopify, Amazon FBA o ERP
+Exporta tu histórico bruto de ventas por unidades y los saldos actuales de almacén desde **Shopify, Amazon Seller Central, Cin7, NetSuite o tu portal 3PL**, y pégalos directamente en `Sales_Import` y las tablas de entrada de inventario:
+- Introduce el **stock de almacén disponible actual** y las **cantidades de POs abiertas en tránsito**.
+- Incluye las ventas unitarias históricas recientes de 30 y 90 días (más los multiplicadores de demanda promocional opcionales).
 
-Este kit está diseñado para los cuellos de botella operativos críticos donde el tiempo y el capital se cruzan:
-
-*   **Preparación para la temporada alta del Q4:** cuando escalas la publicidad en Meta para el Black Friday/Cyber Monday (BFCM) y necesitas justificar matemáticamente pedidos masivos de contenedores desde el extranjero.
-*   **Lanzamientos de nuevos productos:** cuando la velocidad de venta inicial supera las medias históricas y debes calcular rápidamente cantidades de flete aéreo urgente.
-*   **Restricciones de flujo de caja:** cuando finanzas limita el presupuesto de compras trimestral y debes priorizar las órdenes de compra por urgencia operativa estricta en lugar de por intuición.
-*   **Retrasos en los plazos de entrega de proveedores:** cuando un fabricante clave alarga los plazos 20 días y necesitas recalcular al instante el stock de seguridad para 500 SKUs.
+*Sin mantenimiento de VLOOKUP ni reescritura de fórmulas—la capa de ingesta normaliza los datos brutos automáticamente.*
 
 ---
 
-## Para quién es: roles objetivo y casos de uso específicos
-
-Diseñada para profesionales que gestionan productos físicos y se basan en una compra basada en datos, esta herramienta mejora directamente tus flujos de hojas de cálculo existentes enfocándose en roles operativos específicos:
-
-*   **Fundadores de e-commerce y comerciantes de Shopify:** necesitan una *calculadora de reposición para Shopify* ligera para gestionar la logística 3PL sin software empresarial costoso.
-*   **Vendedores de Amazon FBA:** necesitan un *rastreador de inventario FBA* para vigilar los límites de stock de almacén externo frente a los requisitos de los próximos envíos entrantes de Amazon.
-*   **Planificadores de inventario y analistas de cadena de suministro:** buscan una *plantilla Excel de punto de reorden automatizado* para estandarizar la lógica de compras del departamento.
-*   **Responsables de operaciones y compras:** buscan una *herramienta de gestión de plazos de entrega de proveedores* para alinear las MOQs de los vendedores con las capacidades de almacenamiento internas.
-*   **Directores financieros y controllers:** necesitan un *modelo de asignación de capital de trabajo* para vetar compras de inventario sobredimensionadas antes de desplegar la caja.
-
-*(Nota: esto proporciona una capa analítica robusta para datos operativos; no pretende reemplazar plataformas ERP, MRP o de gestión de inventario empresarial a gran escala.)*
+### Paso 3: revisa el stock de seguridad, el punto de reorden y las cantidades de PO sugeridas automatizadas
+Cambia al **panel ejecutivo de reposición**. El motor de cálculo ejecuta inmediatamente las fórmulas de inventario en todo tu catálogo para generar:
+- **Velocidad de ventas diaria ponderada** (unidades/día) y **días de inventario restante (DOH)**
+- **Proyección de la demanda durante el plazo de entrega** y **punto de reorden (ROP) dinámico**
+- **Alertas «ORDER NOW» priorizadas** con **cantidades de PO sugeridas** ajustadas a la MOQ
+- **Capital de trabajo total requerido ($)** para financiar el lote de compra recomendado
 
 ---
 
-## Análisis profundo: superando las limitaciones de las hojas de cálculo tradicionales
+### Paso 4: descarga la plantilla Excel desbloqueada para la planificación semanal de inventario
+Aunque la demo en vivo del navegador es ideal para pruebas de sesión única y verificación de la lógica, las operaciones reales de cadena de suministro exigen instantáneas semanales persistentes, expansiones de SKU personalizadas y auditoría financiera interna.
 
-| Problema común de gestión de inventario | Métodos de hojas de cálculo tradicionales | Solución del kit Excel adaptativo a la demanda |
-|----------------------------------------|---------------------------|----------------------------------------|
-| **Momento de compra (riesgo de desabastecimiento)** | Auditoría basada únicamente en el inventario actual en almacén. | Calcula la **demanda durante el plazo de entrega**, garantizando que las órdenes de compra se emitan considerando el consumo en tránsito. |
-| **Variabilidad de proveedores** | Aplicar un colchón uniforme de 30 días a proveedores nacionales e internacionales por igual. | Asigna **plazos de entrega específicos por SKU**, optimizando los disparadores de reposición para flete local vs internacional. |
-| **Precisión de la previsión de demanda** | Depender de medias históricas estáticas de 90 días que ignoran los picos recientes. | Usa un **factor de tendencia dinámico**, amplificando las cantidades de reorden cuando la velocidad de venta reciente se acelera. |
-| **Eficiencia del capital de trabajo** | Las recomendaciones de compra están desconectadas de los modelos financieros. | Integra el **impacto en caja**, mostrando el compromiso de capital exacto requerido antes de aprobar una orden de compra. |
-| **Alineación con marketing** | Las promociones de marketing no planificadas agotan rápidamente el stock disponible. | Emplea **multiplicadores promocionales** para impulsar artificialmente la previsión de demanda antes de escalar el gasto publicitario. |
-| **Flujo de reporting operativo** | Los equipos de cadena de suministro pierden horas filtrando manualmente tablas dinámicas y VLOOKUPs. | Presenta una **lista de acciones de compra automatizada** priorizada directamente en el panel ejecutivo. |
+> 💡 **¿Listo para automatizar tu planificación semanal de reposición sin pagar más de 1.000 $ al mes por software de inventario SaaS?**  
+> Deja de adivinar cantidades de reposición o de reconstruir hojas de cálculo rotas cada lunes.  
+> 👉 **[Descargar la plantilla Excel completamente desbloqueada de planificación de inventario y decisión de compra](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** para conectar tu propio catálogo de SKUs, guardar registros históricos de compra semanales, personalizar las ponderaciones de previsión y compartir hojas limpias de aprobación de POs con tu equipo financiero.
 
 ---
 
-## Acerca del proyecto
+## La lógica de negocio y la metodología
 
-Construyo herramientas operativas ligeras para situaciones en las que simplemente hay demasiadas piezas en movimiento para tenerlas en la cabeza.
+La mayoría de las plantillas Excel de inventario estándar fracasan en las operaciones reales de e-commerce porque tratan **la velocidad de la demanda como estática** y **las cadenas de suministro como instantáneas**. Si una hoja de cálculo divide simplemente las ventas de 90 días entre 90, una campaña viral de TikTok o una rampa estacional del T4 provocará un desabastecimiento inmediato antes de que un contenedor internacional salga siquiera del puerto.
 
-En lugar de crear otro panel lleno de métricas, me centro en una pregunta práctica:
+Para resolver la compensación matemática entre el **nivel de servicio (riesgo de desabastecimiento)** y la **eficiencia del capital de trabajo (riesgo de exceso de stock)**, este kit implementa una **metodología de reposición cuantitativa de 4 etapas**:
 
-> **¿Qué información necesita aparecer junta para que la próxima decisión operativa pueda tomarse con confianza?**
+1. **Ponderación de velocidad adaptativa a la demanda (tendencia a corto plazo vs. línea base a largo plazo):**  
+   Confiar únicamente en una media de 90 días va por detrás de las tendencias de crecimiento; confiar únicamente en una ventana de 7 o 30 días sobrerreacciona al ruido temporal. Este modelo calcula una **velocidad de demanda diaria combinada ($D_{\text{adaptativa}}$)** comparando la aceleración de ventas a corto plazo ($V_{30}$) con la línea base histórica ($V_{90}$), acoplada a un **multiplicador promocional opcional ($M_{\text{promo}}$)**:
+   $$D_{\text{adaptativa}} = \left( w_1 \cdot V_{30} + w_2 \cdot V_{90} \right) \times M_{\text{promo}}$$
+   Cuando la velocidad de ventas reciente acelera por encima de la media histórica, el modelo escala dinámicamente las proyecciones de demanda futuras para proteger a los ganadores de alta velocidad contra desabastecimientos.
+2. **Modelado del agotamiento durante el plazo de entrega y del punto de reorden (ROP) dinámico:**  
+   Un pedido realizado hoy no llegará hasta que el proveedor complete la fabricación y el tránsito de flete ($L$ días). Durante esa ventana, tu stock existente sigue agotándose. El motor calcula la **demanda durante el plazo de entrega ($D_{\text{LT}} = D_{\text{adaptativa}} \times L$)** y añade un **colchón de stock de seguridad dinámico ($SS$)** calibrado al riesgo del plazo de entrega y la varianza de la demanda:
+   $$\text{Punto de reorden (ROP)} = \left( D_{\text{adaptativa}} \times \text{Plazo de entrega}_{\text{días}} \right) + \text{Stock de seguridad}$$
+   Siempre que la **posición de inventario neta ($\text{disponible} + \text{en pedido} - \text{comprometido}$)** de un SKU caiga al nivel de $\text{ROP}$ o por debajo, el motor de estado cambia el estado del SKU a `ORDER NOW`.
+3. **Optimización de cantidades de pedido bajo restricción de MOQ:**  
+   Calcular un déficit bruto de 142 unidades es inútil si tu fabricante contractual impone una **cantidad mínima de pedido (MOQ)** de 500 unidades. El algoritmo de compra evalúa la brecha neta de reposición necesaria para cubrir el ciclo de cobertura objetivo ($C_{\text{target}}$ días) más el plazo de entrega, y resuelve la **cantidad de PO recomendada final ($Q_{\text{PO}}$)** mediante acotamiento de restricciones:
+   $$Q_{\text{PO}} = \max \left( \text{MOQ}, \; \text{Nivel de stock objetivo} - \text{Posición de inventario neta} \right)$$
+4. **Valoración del capital de trabajo y la exposición de caja (integración de compra abierta):**  
+   Los planificadores de cadena de suministro piensan en *unidades*, mientras que los CFO y fundadores piensan en *flujo de caja*. Cada orden de compra recomendada se multiplica por su `Unit_COGS` ($C_i \times Q_{\text{PO}, i}$) y se agrega por nivel de urgencia. Esto vincula directamente la reposición de inventario físico con la **gestión de flujo de caja de compra abierta (OTB)**, permitiendo a los equipos ver la exposición de capital exacta antes de cortar los depósitos a proveedores.
 
-Inventory Planning Control Tower es un ejemplo de ese enfoque. Combina previsión de demanda, restricciones de proveedores, riesgo de inventario y exposición de tesorería en un marco reutilizable de apoyo a la decisión que las organizaciones pueden operar y mantener por sí mismas.
+---
+
+## Escenarios reales de e-commerce y cadena de suministro que esto resuelve
+
+Si tu equipo de operaciones o finanzas busca un modelo de hoja de cálculo fiable para manejar cualquiera de los siguientes cuellos de botella de inventario, este kit está preconstruido para la tarea:
+
+- **Previsión de inventario de temporada alta T4 / BFCM:** *¿Cómo calculo cantidades exactas de pedidos de contenedores internacionales en julio/agosto al escalar el gasto publicitario en Meta y Google para el Black Friday / Cyber Monday?*
+- **Reposición de Amazon FBA y gestión de colchones 3PL:** *¿Cómo coordino transferencias de inventario entre una fábrica internacional, un almacén de consolidación 3PL nacional y los centros de fulfillment entrantes de Amazon FBA sin quedarme sin stock ni activar recargos por inventario antiguo de FBA?*
+- **Priorización de POs con restricción de caja (crisis de capital de trabajo):** *Cuando nuestro presupuesto trimestral de compra abierta (OTB) está limitado a 150.000 $, ¿qué SKUs específicos deben pedirse hoy para prevenir la pérdida de ingresos, y qué POs pueden diferirse con seguridad?*
+- **Shock de plazo de entrega de proveedores y planificación del Año Nuevo Chino (CNY):** *Cuando las fábricas internacionales cierran durante más de 30 días por el Año Nuevo Chino o los tiempos de tránsito del flete marítimo se duplican, ¿cómo recalculo al instante el stock de seguridad y los puntos de reorden en más de 500 SKUs?*
+- **Ajustes de velocidad de lanzamiento de nuevos productos:** *Cuando un SKU héroe recién lanzado vende 3 veces más rápido que las proyecciones iniciales, ¿cuánto inventario puente de flete aéreo necesitamos pedir para cubrir la brecha antes de que llegue el próximo envío marítimo?*
+
+---
+
+## Rastreadores de inventario heredados vs. este modelo de reposición adaptativa a la demanda
+
+| Dimensión de planificación de inventario | Hojas de cálculo heredadas estáticas (sin esta herramienta) | Kit Excel de inventario adaptativo a la demanda (con esta herramienta) |
+| :--- | :--- | :--- |
+| **Lógica de disparo de compra (riesgo de desabastecimiento)** | Repedir basándose solo en las unidades de almacén disponibles actuales, ignorando el agotamiento del stock durante el tránsito y las POs abiertas en tránsito. | Evalúa la **posición de inventario neta vs. la demanda durante el plazo de entrega**, disparando alertas de PO antes de que el stock caiga por debajo del umbral de seguridad. |
+| **Restricciones de plazo de entrega del proveedor y MOQ** | Aplicar un colchón genérico de 30 días a todos los proveedores, ignorando los plazos de entrega de flete marítimo de 90 días y las cantidades mínimas de pedido de fábrica (MOQs). | Asigna **plazos de entrega y MOQs específicos por SKU**, acotando automáticamente las cantidades de PO sugeridas a restricciones de proveedor válidas. |
+| **Sensibilidad a la velocidad de ventas y las tendencias** | Confiar en medias históricas planas de 90 días o 12 meses que no reaccionan cuando los anuncios de pago o las tendencias estacionales aceleran las ventas. | Usa la **ponderación de velocidad dinámica de 30/90 días**, aumentando automáticamente las cantidades de reposición cuando la demanda a corto plazo se dispara. |
+| **Visibilidad del capital de trabajo y el flujo de caja** | Los planificadores de inventario generan listas de reposición en unidades de forma aislada, obligando a Finanzas a calcular manualmente el impacto en caja en una hoja aparte. | La **valoración de exposición de caja integrada (`PO Units × Unit COGS`)** muestra los compromisos exactos de capital de trabajo directamente en el panel. |
+| **Alineación promocional y de escalado publicitario** | Marketing lanza una venta flash con 30 % de descuento o duplica el gasto publicitario sin visibilidad de la cadena de suministro, borrando 60 días de stock en un fin de semana. | Incorpora **multiplicadores de demanda promocional**, permitiendo a los planificadores poner a prueba la cobertura de inventario antes de las campañas de marketing. |
+| **Flujo de compras semanal** | Los analistas dedican más de 4 horas cada semana a arreglar fórmulas `VLOOKUP` rotas, reconstruir tablas dinámicas y resaltar manualmente las filas de stock bajo. | Genera una **lista de acciones de PO priorizada y codificada por color (`ORDER NOW` vs. `HEALTHY`)** lista para la generación inmediata de POs a proveedores. |
+
+---
+
+## Para quién es: roles objetivo de cadena de suministro y casos de uso de e-commerce
+
+Construido para operadores que gestionan inventario físico y necesitan un motor de planificación riguroso y transparente entre las exportaciones brutas de ERP/Shopify y las costosas plataformas SaaS empresariales:
+
+- **Fundadores de e-commerce DTC y comerciantes de Shopify / WooCommerce:** usa esto como una **calculadora ligera de reposición y reabastecimiento de inventario para Shopify** para evitar el desperdicio publicitario por artículos agotados, gestionar los niveles de stock 3PL y planificar reposiciones de fábrica internacional sin pagar 500–2.000 $ al mes por aplicaciones de previsión SaaS.
+- **Vendedores de Amazon FBA y agregadores de marketplaces:** usa esto como una **hoja de cálculo de planificación de reposición de Amazon FBA y colchones 3PL** para equilibrar los plazos de producción de los proveedores, las ventanas de flete marítimo/aéreo y el calendario de envíos entrantes de FBA para proteger tu puntuación IPI (Inventory Performance Index).
+- **Planificadores de inventario, planificadores de demanda y analistas de cadena de suministro:** usa esto como una **plantilla Excel estandarizada de punto de reorden (ROP) y stock de seguridad** para sustituir hojas de cálculo internas frágiles y propensas a errores por un modelo de reposición auditable.
+- **Gerentes de operaciones y compradores de compras/aprovisionamiento:** usa esto como un **generador automatizado de órdenes de compra (PO) y calculadora de MOQ de proveedores** para convertir los recuentos semanales de stock en cantidades de pedido exactas, listas para el proveedor, en minutos.
+- **CFO de e-commerce, controladores financieros y contables de inventario:** usa esto como un **modelo de previsión de flujo de caja de capital de trabajo y compra abierta (OTB)** para auditar las solicitudes de compra, evitar la sobrecompra en SKUs de nivel C y optimizar las ratios de rotación de inventario.
+
+*Nota: este libro de trabajo **no** es un sistema de gestión de almacenes (WMS) de escaneo de códigos de barras en vivo, una plataforma de enrutamiento de pedidos EDI automatizada ni un ERP estatutario completo. Es la **capa táctica de decisión de planificación de la demanda y compra** que te dice **qué pedir, cuánto pedir, cuándo pedir y cuánto costará en caja.***
+
+---
+
+## Acerca de Theseus Workshop
+
+Construyo sistemas de apoyo a la decisión ligeros y transparentes, en Excel y basados en navegador, para cuellos de botella operativos donde hay demasiadas variables interactuando como para seguirlas mentalmente—pero donde el software empresarial pesado crea costes y complejidad innecesarios.
+
+En lugar de construir otro panel de vanidad saturado, cada kit está diseñado en torno a una pregunta práctica:
+
+> **«¿Qué variables operativas y financieras exactas necesitan estar en un solo lugar para que la siguiente decisión de compra o capital se vuelva matemáticamente evidente?»**
+
+Este **kit de planificación de inventario y decisión de compra adaptativo a la demanda** une la previsión de demanda rodante, las restricciones de plazo de entrega de los proveedores, las matemáticas de stock de seguridad y la exposición de capital de trabajo en un marco autónomo que cualquier equipo de e-commerce o cadena de suministro puede auditar, personalizar y poseer para siempre.
+
+---
+*Palabras clave: plantilla Excel de planificación de inventario, hoja de cálculo calculadora de punto de reorden (ROP), fórmula de stock de seguridad en Excel, modelo de reposición de inventario e-commerce, calculadora de reabastecimiento de Shopify, rastreador de inventario Amazon FBA, planificador de órdenes de compra (PO) de cadena de suministro, hoja de cálculo de capital de trabajo de compra abierta (OTB).*
 
 ---
 
