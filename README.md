@@ -14,7 +14,7 @@
 
 Test the cloud-based interactive web application instantly with zero setup, or download the fully unlocked Excel spreadsheet template for your weekly offline restock workflows—backed by a 30-day, no-questions-asked money-back guarantee.
 
-> 🌐 **Try the Web Calculator:** [Open the Free Interactive Inventory Replenishment & Reorder Point Web App (Live Demo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)  
+> 🌐 **Try the Web Calculator:** [Open the Free Interactive Inventory Replenishment & Reorder Point Web App (Live Demo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)  
 > 📥 **Get the Full Excel Model:** [Download the Fully Unlocked Inventory Planning, Safety Stock & PO Decision Excel Template ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
 > ⚙️ **Replenishment Math:** [Jump to The Business Logic & Inventory Methodology](#the-business-logic--methodology)
 
@@ -46,7 +46,7 @@ Navigate to the `Setup_Config` control sheet and establish your supply chain par
 - **SKU Identifiers & Vendor Mapping:** SKU codes, product names, and primary supplier assignments.
 - **Replenishment Constraints:** Production + freight **Lead Time (days)**, **Minimum Order Quantity (MOQ)**, target service-level safety buffer, and **Unit Landed COGS ($)**.
 
-*Action:* Test how lead-time and MOQ changes impact reorder triggers right now in the [Free Interactive Inventory Planning Web App](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/).
+*Action:* Test how lead-time and MOQ changes impact reorder triggers right now in the [Free Interactive Inventory Planning Web App](https://hyvoid.github.io/inventory-planning-reorder-point-excel/).
 
 ---
 
