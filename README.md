@@ -1,7 +1,7 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Inventory Planning Excel Template & Reorder Point (ROP) Calculator for Ecommerce, Shopify & Amazon FBA
-<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/21d38b78-5718-41fc-b83c-fd19e3ac99ee" />
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/ab946235-54c1-4cb6-8957-f3fc601b803a" />
 
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
