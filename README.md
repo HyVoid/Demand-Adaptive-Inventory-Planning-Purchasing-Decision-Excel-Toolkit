@@ -65,7 +65,7 @@ Open the Executive Dashboard. The calculation engine will automatically run the 
 
 ### Step 4: Download the Template for Continuous Weekly Planning
 The browser demo is perfect for a single trial run. For ongoing weekly inventory reconciliation, persistent data saving, and team collaboration, transition to the local file.
-*CTA:* **[Download the Excel Inventory Template](#)** to securely manage your internal supply chain data and repeat this workflow every planning cycle.
+*CTA:* **[Download the Excel Inventory Template](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)** to securely manage your internal supply chain data and repeat this workflow every planning cycle.
 
 ---
 
