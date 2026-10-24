@@ -1,121 +1,155 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Excel-Vorlage für bedarfsadaptive Bestandsplanung und Einkaufsentscheidungen
+# Excel-Vorlage für Bestandsplanung und Meldebestand (ROP)-Rechner für E-Commerce, Shopify & Amazon FBA
+<img width="2880" height="1228" alt="image" src="https://github.com/user-attachments/assets/ab946235-54c1-4cb6-8957-f3fc601b803a" />
 
-<div align="left">
-  <strong>Eine automatisierte Excel-Vorlage für Bestandsplanung und Einkaufsentscheidungen, entwickelt für DTC-Marken, E-Commerce-Händler und Supply-Chain-Manager. Kostenlos im Browser testen oder als anpassbare Arbeitsmappe herunterladen — um Fehlmengen zu vermeiden, Lieferanten-Vorlaufzeiten zu steuern und Betriebskapital zu optimieren.</strong>
-</div>
-
-<br>
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Inventory%20Planning%20%26%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Inventory%20Replenishment%20%26%20ROP%20Model-orange)
+
+**Eine automatisierte Excel-Vorlage für Bestandsplanung, ein Meldebestand (ROP)-Rechner und ein Sicherheitsbestand-Tabellenblatt — entwickelt für DTC-E-Commerce-Marken, Shopify-Händler, Amazon-FBA-Verkäufer und Supply-Chain-Manager. Kombinieren Sie rollierende 30-/90-Tage-Verkaufsgeschwindigkeitsprognosen, Lieferanten-Vorlaufzeitpuffer, MOQ-Restriktionen und Open-to-Buy (OTB)-Betriebskapitalbindung in einem Entscheidungsunterstützungsmodell—kostenlos in Ihrem Browser oder als entsperrte Excel-Arbeitsmappe.**
+
+**Keine Registrierung. Keine Installation. Kostenlos im Browser testen.**
+
+Testen Sie die cloudbasierte interaktive Webanwendung sofort ohne Einrichtung, oder laden Sie die vollständig entsperrte Excel-Tabellenvorlage für Ihre wöchentlichen Offline-Nachschub-Workflows herunter—abgesichert durch eine 30-tägige Geld-zurück-Garantie ohne Rückfragen.
+
+> 🌐 **Web-Rechner testen:** [Kostenlose interaktive Web-App für Bestandsnachschub & Meldebestand öffnen (Live-Demo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)  
+> 📥 **Vollständiges Excel-Modell holen:** [Vollständig entsperrte Excel-Vorlage für Bestandsplanung, Sicherheitsbestand & PO-Entscheidungen herunterladen ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)  
+> ⚙️ **Nachschub-Mathematik:** [Zur Geschäftslogik & Bestandsmethodik springen](#the-business-logic--methodology)
 
 ---
 
-**Automatisieren Sie Ihren Nachschubzyklus, indem Sie historische Verkaufsprognosen, Risikobewertung der Lieferanten-Vorlaufzeiten, Meldebestandsberechnung und Kapitalbindung in einem leichten Entscheidungsunterstützungswerkzeug bündeln.**
+## Was es zu verfolgen hilft: Mapping von E-Commerce-Bestandsschmerzpunkten zu Lösungen
 
-Testen Sie die cloudbasierte HTML-Version sofort ohne Installation, oder laden Sie die vollständig entsperrte Arbeitsmappe für Ihre operativen Offline-Abläufe herunter.
+Statische Bestands-Tabellenblätter scheitern an modernen Direct-to-Consumer (DTC)-, Amazon-FBA- und Omnichannel-Großhandelsmarken, weil Nachfragegeschwindigkeit und Übersee-Frachtvorlaufzeiten hoch volatil sind. Paid-Social-Skalierung auf Meta/TikTok, BFCM-Blitzaktionen oder Hafenstaus können schwere Fehlmengen auslösen oder Hunderttausende Dollar in totem Bestand binden.
 
-> 🌐 **Web-App testen**
-> [Kostenlose interaktive Bestandsplanungs-Web-App öffnen (HTML-Live-Demo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
->
-> 📥 **Arbeitsmappe herunterladen**
-> [Vollständig entsperrte Excel-Bestandsverwaltungsvorlage herunterladen ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
+Statt fragmentierte 3PL-Lagerberichte, Purchase Orders (POs) im Transit und Shopify/Amazon-Verkaufsexporte manuell zu querlesen, verfolgt und löst dieses **Bestandsnachschub-Tabellenblatt** sechs kritische Blindstellen der Lieferkette:
 
----
-
-## E-Commerce-Bestandsprobleme mit automatisierten Lösungen überwinden
-
-Statt fragmentierte Lagerberichte, Vorlaufzeiten der Lieferanten und mehrkanalige Verkaufshistorien manuell auszuwerten, bündelt dieses Toolkit Ihre Supply-Chain-Transparenz.
-
-Statische Bestandstracker scheitern an modernen Direct-to-Consumer (DTC)- und Omnichannel-Unternehmen, weil die Nachfrage volatil ist. Bezahlte Werbung auf Meta oder TikTok, saisonale Aktionen und virales Marketing können Bestände innerhalb von Tagen leeren. Dieses dynamische Umfeld erzeugt zwei kostspielige Extreme:
-
-- **Schmerzpunkt: Unerwartete Fehlmengen (Nachfrage unterschätzt)**
-  *Lösung:* Nutzt rollierende 30-/90-Tage-Nachfrageprognosen, um Ihren **Meldebestand (ROP)** sofort anzupassen — so verschwenden Sie niemals Customer Acquisition Cost (CAC) für nicht verfügbare Artikel.
-- **Schmerzpunkt: Gebundenes Betriebskapital (Nachfrage überschätzt)**
-  *Lösung:* Setzt präzise **Sicherheitsbestandsberechnungen** ein, um übermäßige Bestandsanhäufung zu verhindern, Kapital freizusetzen und den Lagerumschlag zu beschleunigen.
-- **Schmerzpunkt: Fehlende Abstimmung der Nachschubzyklen**
-  *Lösung:* Passt sich sowohl an **Lieferketten mit langen Vorlaufzeiten** (Überseefracht) als auch an **kurze Logistik-Vorlaufzeiten** (inländische 3PL) an. Jeder SKU wird unabhängig bewertet — auf Basis seiner individuellen Mindestbestellmenge (MOQ) und seiner Vorlaufzeit-Restriktionen.
-
-### Zentrale Überwachungsfunktionen:
-*   **Aktueller Bestandsstatus:** Verfügbaren Bestand vs. prognostizierte Abbauraten visualisieren.
-*   **Handlungsrelevante Einkaufswarnungen:** Zeigt, welche SKUs heute eine Bestellung (PO) erfordern — und welche sicher im optimalen Bereich liegen.
-*   **Bedarf während der Vorlaufzeit:** Berechnet den exakten Einheitenverbrauch während der Transportfenster der Lieferanten.
-*   **Kapitalbindungsanalyse:** Stellt künftige Einkaufsverpflichtungen dem verfügbaren Betriebskapital gegenüber.
+| Ziel-Tracking-Metrik / Schmerzpunkt | Die verbreitete E-Commerce-Bestandsblindstelle | Wie dieses Nachschubmodell es löst & verfolgt |
+| :--- | :--- | :--- |
+| **Dynamischer Meldebestand (ROP) & Fehlmengenprävention** | Verlass auf Bauchgefühl-Nachschubalarme oder statische 90-Tage-Durchschnitte, was Fehlmengen verursacht, wenn Werbeausgaben skalieren, und Customer Acquisition Cost (CAC) verschwendet. | Verfolgt **rollierende 30-Tage- vs. 90-Tage-gewichtete Verkaufsgeschwindigkeit**, um SKU-spezifische **Meldebestände (ROP)** dynamisch anzupassen, bevor der Bestand zur Neige geht. |
+| **Sicherheitsbestand & Tage des verfügbaren Bestands (DOH)** | Überbestellung langsam drehender SKUs aus Angst, was Betriebskapital in 3PL-Lagergebühren bindet und den Lagerumschlag drückt. | Berechnet statistisch gepufferte **Sicherheitsbestandseinheiten** und **Tage des verfügbaren Bestands (DOH / Versorgungswochen)**, zugeschnitten auf die Nachfragevolatilität jedes SKUs. |
+| **Netto verfügbarer Bestand (verfügbar + POs im Transit)** | Doppelte Bestellung, weil offene, nicht empfangene Purchase Orders (in Bestellung / im Transit per See- oder Luftfracht) nicht gegen den Lagerbestand verrechnet werden. | Verfolgt die **Netto-Bestandsposition (`On-Hand + In-Transit POs - Committed Stock`)** gegen prognostizierte Vorlaufzeit-Abbaufenster. |
+| **Lieferanten-Vorlaufzeit- & MOQ-Restriktionsabstimmung** | Anwendung eines pauschalen 30-Tage-Nachschubpuffers sowohl auf 90-Tage-Übersee-Seefrachtfabriken als auch auf 7-Tage-inländische 3PL-Nachschub-Lieferanten. | Bewertet jeden SKU unabhängig anhand **lieferantenspezifischer Transitvorlaufzeiten**, **Mindestbestellmengen (MOQs)** und Case-Pack-Rundungsregeln. |
+| **Open-to-Buy (OTB)-Cashflow & Betriebskapitalbindung** | Einreichung von Purchase Orders rein auf Basis von Stückzahlen, ohne die genaue Mittelbindung zu kennen, die zur Finanzierung des Nachschublaufs erforderlich ist. | Multipliziert vorgeschlagene PO-Mengen mit **Stück-Wareneinstandskosten (Landed COGS)**, um **Cashflow-Bindung ($)** in Echtzeit auszugeben und POs zu priorisieren, wenn Kapital knapp ist. |
+| **Handlungsrelevante Purchase Order (PO)-Prioritätentriage** | Auditing von 500+ SKUs Zeile für Zeile jeden Montagmorgen, um zu ermitteln, welche Lieferanten eine sofortige PO brauchen vs. welche SKUs sicher bevorratet sind. | Erzeugt einen automatisierten **SKU-Aktionsstatus (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** mit exakten empfohlenen PO-Bestellmengen. |
 
 ---
 
-## Schnellstart-Anleitung: So automatisieren Sie Ihre Nachschubentscheidungen noch heute
+## Schnellstart-Tutorial: So automatisieren Sie Ihre Nachschub- & Meldebestandsentscheidungen
 
-Der Übergang von Rohverkaufsdaten zu präzisen Einkaufsempfehlungen dauert nur Minuten. Befolgen Sie diese funktionalen Schritte, um Ihre Nachschubautomatisierung einzurichten.
+Der Übergang von rohen Omnichannel-Verkaufsexporten zu einer audit-fähigen **Purchase Order (PO)-Aktionsliste** dauert weniger als 5 Minuten. Folgen Sie diesem 4-stufigen Nachschub-Workflow:
 
-### Schritt 1: SKU-Stammdaten und Parameter der Lieferkette konfigurieren
-Navigieren Sie zum Tab `Setup_Config`. Erfassen Sie Ihre Basis-Bestandskennzahlen: SKU-Codes, Lieferantennamen, Transport-Vorlaufzeiten, MOQs, Ziel-Servicegrade und COGS pro Einheit.
-*Aktion:* Legen Sie Ihre Basisrestriktionen fest, damit der Algorithmus die Einkaufsschwellen individuell anpassen kann.
+### Schritt 1: SKU-Stammdaten, Vorlaufzeiten & Lieferanten-MOQs konfigurieren
+Navigieren Sie zum Steuerblatt `Setup_Config` und legen Sie Ihre Lieferkettenparameter für jeden SKU fest:
+- **SKU-Identifikatoren & Lieferanten-Mapping:** SKU-Codes, Produktnamen und primäre Lieferantenzuweisungen.
+- **Nachschubrestriktionen:** Produktion + Fracht **Vorlaufzeit (Tage)**, **Mindestbestellmenge (MOQ)**, Ziel-Servicelevel-Sicherheitspuffer und **Stück-Wareneinstandskosten ($)**.
 
-### Schritt 2: Omnichannel-Verkaufshistorie importieren
-Exportieren Sie Ihre Rohverkaufsdaten aus Shopify, Amazon Seller Central oder Ihrem ERP, und fügen Sie sie direkt in das Blatt `Sales_Import` ein. Aktualisieren Sie die aktuellen Lagerbestände und Bestellungen im Transit.
-*Aktion:* Speisen Sie die Prognosemaschine — ohne manuelle Formelanpassungen oder Datenumstrukturierung.
-
-### Schritt 3: Automatisierte Einkaufsempfehlungen erzeugen
-Öffnen Sie das Management-Dashboard. Die Berechnungsmaschine führt die Sicherheitsbestandsformeln automatisch aus und gibt handlungsrelevante Kennzahlen aus: gefährdeter Bestand, empfohlene Bestellmengen und erforderliches Kapital.
-*Aktion:* Prüfen Sie die dynamisch erzeugten „ORDER NOW“-Warnungen, um sofortige Beschaffungsentscheidungen zu treffen.
-
-### Schritt 4: Vorlage für kontinuierliche Wochenplanung herunterladen
-Die Browser-Demo eignet sich perfekt für einen einzelnen Testlauf. Für laufende wöchentliche Bestandsabstimmung, dauerhafte Datenspeicherung und Teamarbeit wechseln Sie zur lokalen Datei.
-*CTA:* **[Excel-Bestandsvorlage herunterladen](#)**, um Ihre internen Supply-Chain-Daten sicher zu verwalten und diesen Ablauf in jedem Planungszyklus zu wiederholen.
+*Aktion:* Testen Sie jetzt, wie Vorlaufzeit- und MOQ-Änderungen Nachschubauslöser beeinflussen, in der [kostenlosen interaktiven Bestandsplanungs-Web-App](https://hyvoid.github.io/inventory-planning-reorder-point-excel/).
 
 ---
 
-## Praxisszenarien: Wann Sie diese Bestandssteuerungs-Arbeitsmappe einsetzen
+### Schritt 2: Shopify-, Amazon-FBA- oder ERP-Historische Verkäufe & Bestandszahlen importieren
+Exportieren Sie Ihren Roh-Stückverkaufsverlauf und aktuelle Lagerbestände aus **Shopify, Amazon Seller Central, Cin7, NetSuite oder Ihrem 3PL-Portal**, und fügen Sie sie direkt in `Sales_Import` und die Bestandseingabetabellen ein:
+- Erfassen Sie **aktuell verfügbaren Lagerbestand** und **offene PO-Mengen im Transit**.
+- Beziehen Sie jüngste 30-Tage- und 90-Tage-Historien-Stückverkäufe ein (plus optionale Werbeaktion-Nachfragemultiplikatoren).
 
-Dieses Toolkit ist für kritische betriebliche Engpässe gebaut, in denen Timing und Kapital sich kreuzen:
-
-*   **Vorbereitung auf die Q4-Hochsaison:** Wenn Sie Meta-Werbung für Black Friday/Cyber Monday (BFCM) hochskalieren und massive Übersee-Containerbestellungen mathematisch rechtfertigen müssen.
-*   **Produktneueinführungen:** Wenn die anfängliche Verkaufsgeschwindigkeit historische Durchschnitte übersteigt und Sie kurzfristige Luftfrachtmengen berechnen müssen.
-*   **Kapitalflussrestriktionen:** Wenn die Finanzabteilung das quartalsweise Beschaffungsbudget begrenzt und Sie Bestellungen nach strikter betrieblicher Dringlichkeit priorisieren müssen — nicht nach Bauchgefühl.
-*   **Verzögerte Lieferanten-Vorlaufzeiten:** Wenn ein Kernlieferant die Vorlaufzeit um 20 Tage verlängert und Sie den Sicherheitsbestand für 500 SKUs sofort neu berechnen müssen.
+*Keine VLOOKUP-Wartung oder Formelneufassung erforderlich—die Ingestion-Schicht normalisiert Rohdaten automatisch.*
 
 ---
 
-## Zielgruppe: Rollen und konkrete Anwendungsfälle
-
-Entwickelt für Fachkräfte, die physische Produkte managen und auf datengestützte Beschaffung setzen, wertet dieses Tool Ihre bestehenden Tabellenabläufe gezielt auf — mit Fokus auf konkrete betriebliche Rollen:
-
-*   **E-Commerce-Gründer und Shopify-Händler:** Brauchen einen leichten *Shopify-Nachschubrechner*, um 3PL-Fulfillment ohne teure Enterprise-Software zu steuern.
-*   **Amazon-FBA-Händler:** Brauchen einen *FBA-Bestandstracker*, um externe Lagerbestandsgrenzen gegen bevorstehende Amazon-Inbound-Sendungen zu überwachen.
-*   **Bestandsplaner und Supply-Chain-Analysten:** Suchen nach einer *automatisierten Meldebestands-Excel-Vorlage*, um die Einkaufslogik der Abteilung zu standardisieren.
-*   **Betriebs- und Beschaffungsmanager:** Suchen nach einem *Werkzeug zur Steuerung von Lieferanten-Vorlaufzeiten*, um Lieferanten-MOQs mit internen Lagerkapazitäten abzugleichen.
-*   **Finanzmanager und Controller:** Brauchen ein *Betriebskapital-Allokationsmodell*, um überdimensionierte Einkäufe zu stoppen, bevor Kapital abfließt.
-
-*(Hinweis: Dies bietet eine robuste analytische Schicht für operative Daten; es soll keine vollwertigen ERP-, MRP- oder Enterprise-Bestandsmanagementplattformen ersetzen.)*
+### Schritt 3: Automatisierte Sicherheitsbestände, ROP & vorgeschlagene PO-Mengen prüfen
+Wechseln Sie zum **Executive Replenishment Dashboard**. Die Berechnungsmaschine führt die Bestandsformeln sofort über Ihren gesamten Katalog aus und gibt aus:
+- **Gewichtete tägliche Verkaufsgeschwindigkeit** (Einheiten/Tag) & **Tage des verbleibenden Bestands (DOH)**
+- **Vorlaufzeit-Bedarfsprojektion** & **dynamischer Meldebestand (ROP)**
+- **Priorisierte „ORDER NOW“-Alarme** mit MOQ-angepassten **vorgeschlagenen PO-Mengen**
+- **Gesamtes erforderliches Betriebskapital ($)** zur Finanzierung der empfohlenen Einkaufscharge
 
 ---
 
-## Deep Dive: Grenzen klassischer Tabellenkalkulation überwinden
+### Schritt 4: Die entsperrte Excel-Vorlage für wöchentliche Bestandsplanung herunterladen
+Während die Browser-Live-Demo ideal für Einzelsitzungstests und Logikverifikation ist, erfordern echte Lieferkettenoperationen persistente wöchentliche Snapshots, individuelle SKU-Erweiterungen und interne Finanzaudits.
 
-| Häufiges Bestandsmanagement-Problem | Methoden klassischer Tabellenkalkulation | Lösung des bedarfsadaptiven Excel-Toolkits |
-|----------------------------------------|---------------------------|----------------------------------------|
-| **Einkaufszeitpunkt (Fehlmengenrisiko)** | Prüfung basiert ausschließlich auf dem aktuellen Lagerbestand. | Berechnet den **Bedarf während der Vorlaufzeit** — Bestellungen (PO) werden unter Berücksichtigung des Verbrauchs im Transit ausgelöst. |
-| **Lieferantenvariabilität** | Einheitlicher 30-Tage-Puffer für inländische wie ausländische Lieferanten. | Weist **SKU-spezifische Vorlaufzeiten** zu und optimiert Nachschubauslöser für lokale vs. internationale Fracht. |
-| **Genauigkeit der Nachfrageprognose** | Statische 90-Tage-Historienmittel, die jüngste Spikes ignorieren. | Nutzt einen **dynamischen Trendfaktor**, der Bestellmengen erhöht, wenn sich die Verkaufsgeschwindigkeit beschleunigt. |
-| **Betriebskapital-Effizienz** | Einkaufsempfehlungen sind von Finanzmodellen entkoppelt. | Integriert die **Cashflow-Auswirkung** und zeigt die exakte Kapitalbindung vor Freigabe einer Bestellung (PO). |
-| **Marketing-Abstimmung** | Ungeplante Marketing-Aktionen leeren verfügbare Bestände rapide. | Nutzt **Promotionsmultiplikatoren**, um die Nachfrageprognose vor der Skalierung von Werbeausgaben anzuheben. |
-| **Operativer Reporting-Ablauf** | Supply-Chain-Teams verlieren Stunden mit manuellem Filtern von Pivot-Tabellen und VLOOKUPs. | Zeigt eine priorisierte **automatisierte Bestell-Aktionsliste** direkt auf dem Management-Dashboard. |
+> 💡 **Bereit, Ihre wöchentliche Nachschubplanung zu automatisieren, ohne 1.000+ $/Monat für SaaS-Bestandssoftware zu zahlen?**  
+> Hören Sie auf, Nachschubmengen zu erraten oder jeden Montag kaputte Tabellenblätter neu zu bauen.  
+> 👉 **[Vollständig entsperrte Excel-Vorlage für Bestandsplanung & Einkaufsentscheidungen herunterladen](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)**, um Ihren eigenen SKU-Katalog einzuspielen, historische wöchentliche Beschaffungsprotokolle zu speichern, Prognosegewichtungen anzupassen und saubere PO-Freigabeblätter mit Ihrem Finanzteam zu teilen.
 
 ---
 
-## Über das Projekt
+## Die Geschäftslogik & Methodik
 
-Ich baue leichtgewichtige operative Werkzeuge für Situationen, in denen es schlicht zu viele bewegliche Teile gibt, um sie im Kopf zu behalten.
+Die meisten Standard-Excel-Bestandsvorlagen scheitern im echten E-Commerce-Betrieb, weil sie **Nachfragegeschwindigkeit als statisch** und **Lieferketten als augenblicklich** behandeln. Wenn ein Tabellenblatt einfach 90-Tage-Verkäufe durch 90 teilt, verursacht eine virale TikTok-Kampagne oder ein Q4-Saisonalanstieg eine sofortige Fehlmenge, bevor ein Übersee-Container überhaupt den Hafen verlässt.
 
-Statt ein weiteres Dashboard voller Kennzahlen zu bauen, konzentriere ich mich auf eine praktische Frage:
+Um den mathematischen Trade-off zwischen **Servicelevel (Fehlmengenrisiko)** und **Betriebskapitaleffizienz (Überbestandsrisiko)** zu lösen, implementiert dieses Toolkit eine **4-stufige quantitative Nachschubmethodik**:
 
-> **Welche Informationen müssen zusammen erscheinen, damit die nächste betriebliche Entscheidung sicher getroffen werden kann?**
+1. **Bedarfsadaptive Geschwindigkeitsgewichtung (Kurzfristiger Trend vs. langfristige Baseline):**  
+   Sich allein auf einen 90-Tage-Durchschnitt zu verlassen, hinkt Wachstumstrends hinterher; sich allein auf ein 7- oder 30-Tage-Fenster zu verlassen, überreagiert auf temporäres Rauschen. Dieses Modell berechnet eine **gemischte tägliche Bedarfsgeschwindigkeit ($D_{\text{adaptiv}}$)**, indem kurzfristige Verkaufsbeschleunigung ($V_{30}$) gegen die historische Baseline ($V_{90}$) verglichen wird, gekoppelt mit einem optionalen **Werbeaktionen-Multiplikator ($M_{\text{promo}}$)**:
+   $$D_{\text{adaptiv}} = \left( w_1 \cdot V_{30} + w_2 \cdot V_{90} \right) \times M_{\text{promo}}$$
+   Wenn die jüngste Verkaufsgeschwindigkeit über dem historischen Mittel beschleunigt, skaliert das Modell Vorwärts-Bedarfsprojektionen dynamisch hoch, um Hochgeschwindigkeits-Gewinner vor Fehlmengen zu schützen.
+2. **Vorlaufzeit-Abbau & dynamische Meldebestand (ROP)-Modellierung:**  
+   Eine heute aufgegebene Bestellung kommt nicht an, bis der Lieferant Fertigung und Frachttransit abschließt ($L$ Tage). In diesem Fenster zehrt Ihr bestehender Bestand weiter. Die Maschine berechnet **Vorlaufzeit-Bedarf ($D_{\text{LT}} = D_{\text{adaptiv}} \times L$)** und addiert einen dynamischen **Sicherheitsbestandspuffer ($SS$)**, kalibriert auf Vorlaufzeitrisiko und Bedarfsvarianz:
+   $$\text{Meldebestand (ROP)} = \left( D_{\text{adaptiv}} \times \text{Vorlaufzeit}_{\text{Tage}} \right) + \text{Sicherheitsbestand}$$
+   Wann immer die **Netto-Bestandsposition ($\text{verfügbar} + \text{in Bestellung} - \text{zugesagt}$)** eines SKUs auf oder unter $\text{ROP}$ fällt, kippt die Zustandsmaschine den SKU-Status auf `ORDER NOW`.
+3. **MOQ-restringierte Bestellmengenoptimierung:**  
+   Ein Rohdefizit von 142 Einheiten zu berechnen ist nutzlos, wenn Ihr Auftragsfertiger eine **Mindestbestellmenge (MOQ)** von 500 Einheiten durchsetzt. Der Einkaufsalgorithmus bewertet die Netto-Nachschublücke, die zur Abdeckung des Ziel-Abdeckungszyklus ($C_{\text{target}}$ Tage) plus Vorlaufzeit erforderlich ist, und löst die endgültige **empfohlene PO-Menge ($Q_{\text{PO}}$)** durch Restriktions-Eingrenzung:
+   $$Q_{\text{PO}} = \max \left( \text{MOQ}, \; \text{Zielbestandsniveau} - \text{Netto-Bestandsposition} \right)$$
+4. **Betriebskapital- & Kapitalbindungsbewertung (Open-to-Buy-Integration):**  
+   Supply-Chain-Planer denken in *Einheiten*, während CFOs und Gründer in *Cashflow* denken. Jede empfohlene Purchase Order wird mit ihrem `Unit_COGS` ($C_i \times Q_{\text{PO}, i}$) multipliziert und nach Dringlichkeitsstufe aggregiert. Das verknüpft physische Bestandsaufstockung direkt mit **Open-to-Buy (OTB)-Cashflow-Management** und ermöglicht Teams, die exakte Kapitalbindung zu sehen, bevor Lieferantenanzahlungen geleistet werden.
 
-Inventory Planning Control Tower ist ein Beispiel für diesen Ansatz. Es bündelt Nachfrageprognose, Lieferantenrestriktionen, Bestandsrisiko und Kapitalbindung in einem wiederverwendbaren Entscheidungsunterstützungs-Framework, das Organisationen selbst betreiben und pflegen können.
+---
+
+## Reale E-Commerce- & Lieferkettenszenarien, die dies löst
+
+Wenn Ihr Betriebs- oder Finanzteam nach einem verlässlichen Tabellenblattmodell sucht, um einen der folgenden Bestandsengpässe zu handhaben, ist dieses Toolkit dafür vorgebaut:
+
+- **Q4-/BFCM-Hochsaison-Bestandsprognose:** *Wie berechne ich exakte Übersee-Container-Bestellmengen im Juli/August, wenn ich Meta- und Google-Werbeausgaben für Black Friday / Cyber Monday skaliere?*
+- **Amazon-FBA-Nachschub & 3PL-Puffer-Management:** *Wie koordiniere ich Bestandstransfers zwischen einer Überseefabrik, einem inländischen 3PL-Staging-Lager und Amazon-FBA-Inbound-Fulfillment-Zentren, ohne Fehlmengen zu riskieren oder FBA-Altebestand-Zuschläge auszulösen?*
+- **Kapitalbeschränkte PO-Priorisierung (Betriebskapital-Engpass):** *Wenn unser vierteljährliches Open-to-Buy (OTB)-Beschaffungsbudget bei 150.000 $ gedeckelt ist, welche spezifischen SKUs müssen heute bestellt werden, um Umsatzverluste zu verhindern, und welche POs können sicher verschoben werden?*
+- **Lieferanten-Vorlaufzeit-Schock & Chinesisches Neujahr (CNY)-Planung:** *Wenn Überseefabriken für 30+ Tage während des Chinesischen Neujahrs schließen oder Seefracht-Transitzeiten sich verdoppeln, wie berechne ich Sicherheitsbestand und Meldebestände sofort über 500+ SKUs neu?*
+- **Anpassungen der Launch-Geschwindigkeit neuer Produkte:** *Wenn ein neu eingeführter Hero-SKU 3× schneller verkauft als ursprüngliche Prognosen, wie viel Luftfracht-Brückenbestand müssen wir bestellen, um die Lücke bis zur nächsten Seesendung zu decken?*
+
+---
+
+## Legacy-Bestandstracker vs. dieses bedarfsadaptive Nachschubmodell
+
+| Bestandsplanungsdimension | Statische Legacy-Tabellenblätter (ohne dieses Tool) | Bedarfsadaptives Excel-Bestands-Toolkit (mit diesem Tool) |
+| :--- | :--- | :--- |
+| **Einkaufsauslöserlogik (Fehlmengenrisiko)** | Nachbestellung nur auf Basis aktuell verfügbarer Lagereinheiten, ignorierend Bestandsabbau während Transit und offene POs im Transit. | Bewertet **Netto-Bestandsposition vs. Vorlaufzeit-Bedarf** und löst PO-Alarme aus, bevor Bestand unter die Sicherheitsschwelle fällt. |
+| **Lieferanten-Vorlaufzeit- & MOQ-Restriktionen** | Anwendung eines generischen 30-Tage-Puffers auf alle Lieferanten, ignorierend 90-Tage-Seefracht-Vorlaufzeiten und Fabrik-Mindestbestellmengen (MOQs). | Weist **SKU-spezifische Vorlaufzeiten und MOQs** zu und begrenzt vorgeschlagene PO-Mengen automatisch auf gültige Lieferantenrestriktionen. |
+| **Verkaufsgeschwindigkeit & Trendsensitivität** | Verlass auf flache 90-Tage- oder 12-Monats-Historienmittel, die nicht reagieren, wenn Paid Ads oder Saisontrends Verkäufe beschleunigen. | Nutzt **dynamische 30-/90-Tage-Geschwindigkeitsgewichtung** und erhöht Nachschubmengen automatisch, wenn kurzfristige Nachfrage steigt. |
+| **Betriebskapital- & Cashflow-Transparenz** | Bestandsplaner erzeugen Einheiten-Nachschublisten isoliert, was Finanzen zwingt, Cashflow-Auswirkung manuell in einem separaten Blatt zu berechnen. | Integrierte **Kapitalbindungsbewertung (`PO Units × Unit COGS`)** zeigt exakte Betriebskapitalverpflichtungen direkt auf dem Dashboard. |
+| **Werbeaktionen- & Ad-Skalierungs-Abstimmung** | Marketing startet eine 30-%-Rabatt-Blitzaktion oder verdoppelt Werbeausgaben ohne Lieferkettentransparenz, was 60 Tage Bestand an einem Wochenende auslöscht. | Integriert **Werbeaktionen-Nachfragemultiplikatoren** und erlaubt Planern, Bestandsabdeckung vor Marketingkampagnen zu stresstesten. |
+| **Wöchentlicher Beschaffungs-Workflow** | Analysten verbringen wöchentlich 4+ Stunden mit dem Reparieren kaputter `VLOOKUP`-Formeln, dem Wiederaufbau von Pivot-Tabellen und dem manuellen Markieren von Niedrigbestandszeilen. | Gibt eine automatisierte, farbcodierte **priorisierte PO-Aktionsliste (`ORDER NOW` vs. `HEALTHY`)** aus, bereit zur sofortigen Lieferanten-PO-Erzeugung. |
+
+---
+
+## Für wen dies ist: Ziel-Supply-Chain-Rollen & E-Commerce-Anwendungsfälle
+
+Gebaut für Operatoren, die physischen Bestand verwalten und eine rigorose, transparente Planungsmaschine zwischen rohen ERP/Shopify-Exporten und teuren Enterprise-SaaS-Plattformen brauchen:
+
+- **DTC-E-Commerce-Gründer & Shopify-/WooCommerce-Händler:** Nutzen Sie dies als **leichten Shopify-Bestandsnachschub- und Nachbestellrechner**, um Out-of-Stock-Werbeverschwendung zu verhindern, 3PL-Bestandsniveaus zu steuern und Überseefabrik-Nachbestellungen zu planen, ohne 500–2.000 $/Monat für SaaS-Prognose-Apps zu zahlen.
+- **Amazon-FBA-Verkäufer & Marketplace-Aggregatoren:** Nutzen Sie dies als **Amazon-FBA-Nachschub- und 3PL-Puffer-Planungstabellenblatt**, um Lieferanten-Produktionsvorlaufzeiten, See-/Luftfrachtfenster und FBA-Inbound-Sendungstiming auszubalancieren, um Ihren IPI (Inventory Performance Index)-Score zu schützen.
+- **Bestandsplaner, Bedarfsplaner & Supply-Chain-Analysten:** Nutzen Sie dies als **standardisiertes Meldebestand (ROP)- & Sicherheitsbestand-Excel-Template**, um fragile, fehleranfällige interne Tabellenblätter durch ein auditierbares Nachschubmodell zu ersetzen.
+- **Betriebsleiter & Einkaufs-/Beschaffungseinkäufer:** Nutzen Sie dies als **automatisierten Purchase Order (PO)-Generator & Lieferanten-MOQ-Rechner**, um wöchentliche Bestandszählungen in Minuten in exakte, lieferantenbereite Bestellmengen zu verwandeln.
+- **E-Commerce-CFOs, Finanzcontroller & Bestandsbuchhalter:** Nutzen Sie dies als **Betriebskapital- & Open-to-Buy (OTB)-Cashflow-Prognosemodell**, um Einkaufsanforderungen zu auditieren, Überkäufe bei C-Tier-SKUs zu verhindern und Lagerumschlagquoten zu optimieren.
+
+*Hinweis: Diese Arbeitsmappe ist **kein** Live-Barcode-scanndes Warehouse Management System (WMS), keine automatisierte EDI-Bestell-Routing-Plattform und kein vollständiges gesetzliches ERP. Sie ist die **taktische Bedarfsplanungs- und Einkaufsentscheidungsschicht**, die Ihnen sagt, **was zu bestellen ist, wie viel zu bestellen ist, wann zu bestellen ist und wie viel Bargeld es kosten wird.***
+
+---
+
+## Über Theseus Workshop
+
+Ich baue leichtgewichtige, transparente Excel- und browserbasierte Entscheidungsunterstützungssysteme für betriebliche Engpässe, bei denen es zu viele interagierende Variablen gibt, um sie mental zu verfolgen—aber bei denen schwere Enterprise-Software unnötige Kosten und Komplexität schafft.
+
+Statt ein weiteres überfrachtetes Eitelkeits-Dashboard zu bauen, ist jedes Toolkit um eine praktische Frage herum konstruiert:
+
+> **„Welche exakten betrieblichen und finanziellen Variablen müssen an einem Ort sitzen, damit die nächste Einkaufs- oder Kapitalentscheidung mathematisch offensichtlich wird?“**
+
+Dieses **bedarfsadaptive Bestandsplanungs- & Einkaufsentscheidungs-Toolkit** vereint rollierende Bedarfsprognose, Lieferanten-Vorlaufzeitrestriktionen, Sicherheitsbestandmathematik und Betriebskapitalbindung in einem in sich geschlossenen Framework, das jedes E-Commerce- oder Supply-Chain-Team auditieren, anpassen und für immer besitzen kann.
+
+---
+*Schlüsselwörter: Excel-Vorlage für Bestandsplanung, Meldebestand (ROP)-Rechner-Tabellenblatt, Sicherheitsbestand-Formel-Excel, E-Commerce-Bestandsnachschubmodell, Shopify-Nachbestellrechner, Amazon-FBA-Bestandstracker, Supply-Chain-Purchase-Order (PO)-Planer, Open-to-Buy (OTB)-Betriebskapital-Tabellenblatt.*
 
 ---
 
