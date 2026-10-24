@@ -19,7 +19,7 @@
 Probeer de cloudgebaseerde HTML-versie direct, zonder installatie, of download de volledig ontgrendelde spreadsheet voor je operationele offline werkstromen.
 
 > 🌐 **Probeer de web-app**
-> [Open de gratis interactieve web-app voor voorraadplanning (HTML-livedemo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
+> [Open de gratis interactieve web-app voor voorraadplanning (HTML-livedemo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
 >
 > 📥 **Download de spreadsheet**
 > [Download het volledig ontgrendelde Excel-sjabloon voor voorraadbeheer ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
