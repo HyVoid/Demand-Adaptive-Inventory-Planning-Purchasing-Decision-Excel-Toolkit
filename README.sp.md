@@ -19,7 +19,7 @@
 Prueba la versión HTML en la nube al instante, sin instalación, o descarga la hoja de cálculo completamente desbloqueada para tus flujos operativos sin conexión.
 
 > 🌐 **Prueba la aplicación web**
-> [Abrir la aplicación web gratuita e interactiva de planificación de inventario (demo HTML en vivo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
+> [Abrir la aplicación web gratuita e interactiva de planificación de inventario (demo HTML en vivo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
 >
 > 📥 **Obtén la hoja de cálculo**
 > [Descargar la plantilla Excel de gestión de inventario completamente desbloqueada ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
