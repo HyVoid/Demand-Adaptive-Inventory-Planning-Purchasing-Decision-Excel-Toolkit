@@ -19,7 +19,7 @@
 Testen Sie die cloudbasierte HTML-Version sofort ohne Installation, oder laden Sie die vollständig entsperrte Arbeitsmappe für Ihre operativen Offline-Abläufe herunter.
 
 > 🌐 **Web-App testen**
-> [Kostenlose interaktive Bestandsplanungs-Web-App öffnen (HTML-Live-Demo) ↗](https://hyvoid.github.io/Demand-Adaptive-Inventory-Planning-Purchasing-Decision-Excel-Toolkit/)
+> [Kostenlose interaktive Bestandsplanungs-Web-App öffnen (HTML-Live-Demo) ↗](https://hyvoid.github.io/inventory-planning-reorder-point-excel/)
 >
 > 📥 **Arbeitsmappe herunterladen**
 > [Vollständig entsperrte Excel-Bestandsverwaltungsvorlage herunterladen ↗](https://www.theseusworkshop.com/l/rklhag?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=demand-adaptive-inventory)
